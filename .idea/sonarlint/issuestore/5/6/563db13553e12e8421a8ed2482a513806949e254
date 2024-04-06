@@ -1,0 +1,15 @@
+
+
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8Ñƒ»®ë1J$f35cdf95-414b-4cea-99d8-252129eb03f1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8Óƒ»®ë1J$f481c9d9-5c8a-425f-879a-a7f4cf7e0c5c
+d	java:S131""Add a default case to this switch.(°€àâ8çƒ»®ë1J$f960f119-6b40-4ee3-8eb3-22a9c56dcc25
+m	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8èƒ»®ë1J$743bbad4-992e-4f33-bcd2-c53830d28927
+r	java:S106"+Replace this use of System.out by a logger.(ıâü¯ıÿÿÿÿ8èƒ»®ë1J$d9ba881c-6fa0-4f90-a5a2-56ade90cd3d7
+m	java:S106"+Replace this use of System.out by a logger.(ªà¦8éƒ»®ë1J$aed84492-ce05-4e58-9bce-824d17ee68d9
+l	java:S106"+Replace this use of System.out by a logger.(²—Ù8éƒ»®ë1J$2e3c80d7-4142-43f7-8dcc-c9d9762c9e21
+y
+java:S1128"6Remove this unused import 'co.edu.uniquindio.poo.App'.(¥ÄëÚ8§Ö½®ë1J$a69c7972-94d9-49c9-a58f-8fee6b9bfc31
+j
+java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8êƒ»®ë1J$48223e63-69f0-42c9-9a66-5fad727f32f6
+s
+java:S1068"+Remove this unused "scanner" private field.(‚ïèıÿÿÿÿ8êƒ»®ë1J$7bfb60de-84eb-429b-8de9-e0129aebac6f

@@ -1,0 +1,18 @@
+
+œ
+java:S1104"TMake espacios a static final constant or non-public and provide accessors if needed.(õ‘ÇÎûÿÿÿÿ8Â»³®ë1J$7a770598-b318-47ce-a5f0-984c4cfc1805
+v
+java:S1444".Make this "public static espacios" field final(õ‘ÇÎûÿÿÿÿ8Ã»³®ë1J$4d7699bc-0305-4299-9d69-ce0526a0a147
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8Å»³®ë1J$46e4ae09-bc8e-4048-868a-1290689579bf
+e
+java:S2386"Make this member "protected".(õ‘ÇÎûÿÿÿÿ8Ü»³®ë1J$1ce6e119-cbcb-47d1-a6de-b85c72855d55
+r	java:S106&"+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8á»³®ë1J$c6a13b16-ef8a-4bf5-a8ca-bccf9322399a
+r	java:S106("+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8á»³®ë1J$f2be08a4-f4fd-4564-b2f0-d05c24af7077
+j
+java:S1068"'Remove this unused "LOG" private field.(¶šÍ›8â»³®ë1J$112dd2be-218c-4bfb-92ff-65665e510c81
+}
+java:S1068"5Remove this unused "espacioHabilitado" private field.(«‘ë¯üÿÿÿÿ8â»³®ë1J$19c558a1-965a-4179-8209-bced72c31646
+w
+java:S1068"4Remove this unused "espacioProhibido" private field.(–ß®‡8â»³®ë1J$247342dc-879d-45f2-a9e8-9b723bada65c
+m
+java:S1068"*Remove this unused "estado" private field.(ò¯¨õ8â»³®ë1J$30601cd1-787d-4e8c-b738-94662d89018f
