@@ -21,7 +21,7 @@ public class ParqueaderoDao {
 
 
     //Asignacion de espacio 5x5 por defecto
-    public static void configuracionDefecto(){
+    public static boolean[][] configuracionDefecto(){
         espacios = new boolean[5][5];
         espacios[0][0] = true;
 
@@ -40,6 +40,7 @@ public class ParqueaderoDao {
             System.out.println();
         }
 
+    return espacios;
     }
 
 }

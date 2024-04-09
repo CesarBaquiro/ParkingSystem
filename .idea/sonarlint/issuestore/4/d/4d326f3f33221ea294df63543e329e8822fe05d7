@@ -1,4 +1,6 @@
 
-•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ÒÓ‚J$12b16aa2-7424-4c9c-9b43-647a18c5dea3
-v
-java:S1068"3Remove this unused "velocidadMaxima" private field.(Ğ“¾8òüÀ¬ë1J$7c83acd9-30ed-43a9-8a8f-efbdbb03b065
+™
+java:S1104"QMake moto1 a static final constant or non-public and provide accessors if needed.(´êéÜùÿÿÿÿ8÷˜«Ÿì1J$3ed85349-6c8e-4eec-86fe-d282c3ba112d
+s
+java:S1444"+Make this "public static moto1" field final(´êéÜùÿÿÿÿ8³æ«Ÿì1J$9739efed-b69a-4782-8f3d-f1138ed4a0b2
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ÒÓ‚8üœ¥Ÿì1J$70409ee1-da59-4cd4-a96d-d9bf2edbc77c

@@ -21,3 +21,5 @@ b
 2src/main/java/co/edu/uniquindio/poo/Menu/Menu.java,5\6\563db13553e12e8421a8ed2482a513806949e254
 z
 Jsrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoController.java,0\0\00951300208291ab0b859bf12600b216740111f3
+o
+?src/main/java/co/edu/uniquindio/poo/Parqueadero/EspacioDao.java,0\6\06997d2c0a9a4a7cac14d07710a148cf12980f9c
