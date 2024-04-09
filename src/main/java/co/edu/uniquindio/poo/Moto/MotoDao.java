@@ -20,7 +20,7 @@ public class MotoDao {
     }
 
 
-    public static MotoDao moto1 = new MotoDao(60, TipoMoto.CLASICA, "GQQ689");
+    public static MotoDao moto1 = new MotoDao(60, TipoMoto.CLASICA, "BWL123");
 
 
     public Integer getVelocidadMaxima() {
@@ -47,12 +47,16 @@ public class MotoDao {
         this.placa = placa;
     }
 
-    public static MotoDao getMoto1() {
-        return moto1;
+    // Método toString para representar el objeto como cadena de caracteres
+    @Override
+    public String toString() {
+        return "Moto{" +
+                ", placa="+moto1.getPlaca()+
+                ", tipo de moto="+moto1.getTipoMoto()+
+                ", velocidad maxima="+moto1.getVelocidadMaxima()+
+                "}";
     }
 
-    public static void setMoto1(MotoDao moto1) {
-        MotoDao.moto1 = moto1;
-    }
+
 
 }

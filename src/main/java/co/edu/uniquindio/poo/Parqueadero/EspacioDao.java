@@ -42,14 +42,7 @@ public class EspacioDao {
                 "id='" + id + '\'' +
                 ", espacioHabilitado=" + espacioHabilitado +
                 ", ocupado=" + ocupado +
-                ", carro=" + carro +
-                ", moto{" +
-                    ", placa="+moto.getPlaca()+
-                    ", tipo de moto="+moto.getTipoMoto()+
-                    ", velocidad maxima="+moto.getVelocidadMaxima()+
-                "}}";
+                ", "+ carro.toString()+
+                "}";
     }
-
-
-
 }

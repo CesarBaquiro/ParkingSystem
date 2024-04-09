@@ -1,4 +1,6 @@
 
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8­ıŠ ì1
-D
-java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8¸ıŠ ì1
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8” ¤ì1J$6c3f54a4-6ec8-49da-9868-862836a018b5
+E
+java:S1068"(Remove this unused "moto" private field.(‰¿‡8Í™±¤ì1
+j
+java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8¦ ¤ì1J$a7784686-709d-49d2-8ad2-0b7a7752f327

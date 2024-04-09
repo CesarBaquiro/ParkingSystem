@@ -1,18 +1,20 @@
 
-
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8™ºéŸì1J$e268884e-0695-4197-af65-f87b4a07bf28
+h
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8ê‡¬¤ì1
 y
-java:S2629 "\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ŠÉ™Û8×ëïŸì1
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8œºéŸì1J$e30e8a3e-e94b-4ba0-83af-b4f33df63f44
-d	java:S131""Add a default case to this switch.(°€àâ8¥ºéŸì1J$1ca4c3f0-dd65-4f55-9b88-49fad9766ea5
-m	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8¦ºéŸì1J$6b46a38b-239e-4745-8fb6-ea056a6069a7
-r	java:S106""+Replace this use of System.out by a logger.(ıâü¯ıÿÿÿÿ8¨ºéŸì1J$6f48db8a-09ea-4306-81f1-e4e71765b001
-~	java:S125!"<This block of commented-out lines of code should be removed.(èŞÁá8¨ºéŸì1J$5f970430-4951-40e3-ba98-c07b6737e594
-m	java:S106$"+Replace this use of System.out by a logger.(ªà¦8©ºéŸì1J$2057557f-2f7c-4449-b118-3ab76ce41e8c
-l	java:S106'"+Replace this use of System.out by a logger.(²—Ù8©ºéŸì1J$01963c73-e1d8-41b6-8f87-c53569663060
+java:S2629!"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ŠÉ™Û8ì‡¬¤ì1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8í‡¬¤ì1
+>	java:S131""Add a default case to this switch.(°€àâ8ÿ‡¬¤ì1
+G	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8€ˆ¬¤ì1
+L	java:S106#"+Replace this use of System.out by a logger.(ıâü¯ıÿÿÿÿ8ƒˆ¬¤ì1
+X	java:S125""<This block of commented-out lines of code should be removed.(èŞÁá8„ˆ¬¤ì1
+G	java:S106%"+Replace this use of System.out by a logger.(ªà¦8„ˆ¬¤ì1
+F	java:S106("+Replace this use of System.out by a logger.(²—Ù8…ˆ¬¤ì1
 S
-java:S1128"6Remove this unused import 'co.edu.uniquindio.poo.App'.(¥ÄëÚ8çëïŸì1
+java:S1128"6Remove this unused import 'co.edu.uniquindio.poo.App'.(¥ÄëÚ8†ˆ¬¤ì1
+a
+java:S1128"?Remove this unused import 'co.edu.uniquindio.poo.Moto.MotoDao'.(—®êşÿÿÿÿ8†ˆ¬¤ì1
 O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8çëïŸì1
-s
-java:S1068"+Remove this unused "scanner" private field.(‚ïèıÿÿÿÿ8ªºéŸì1J$9d02c1a5-248f-49e9-93e9-9725b119ba32
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8†ˆ¬¤ì1
+M
+java:S1068"+Remove this unused "scanner" private field.(‚ïèıÿÿÿÿ8‡ˆ¬¤ì1
