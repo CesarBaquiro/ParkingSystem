@@ -1,6 +1,11 @@
 
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8¤ÏÚ®ë1J$6d4472b5-cc3b-49e7-878f-856efe75dec9
-_
-java:S2094"BRemove this empty class, write its code or make it an "interface".(¹Á¸À8„¦Ü®ë1
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(…»’…ıÿÿÿÿ8ÈêÛ®ë1J$a61dbf8e-b13c-4a2b-93ed-33104005aa61
+z
+java:S2629"7Use the built-in formatting to construct this argument.(Ã³¥¦8–ğš¥ì1J$10b4a1a3-da13-4fb7-bfe2-1757bdc055b5
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8—ğš¥ì1J$ccd3ffa1-70e5-4866-8444-30edeabdd3ae
+~	java:S107"<Method has 8 parameters, which is greater than 7 authorized.(Æ¸’8›ğš¥ì1J$72f2de2c-bf17-408a-96dc-1199ac9a7536
+d
+java:S1116"Remove this empty statement.(‡×‡äøÿÿÿÿ8ğš¥ì1J$37432fe7-e910-4c36-b96d-9804326d4a08
+o
+java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ÿğš¥ì1J$72ffe7ac-7595-4374-8b8b-1cedefab9125
+o
+java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ÿğš¥ì1J$53199117-9e38-41ca-a517-65d3c396ca00

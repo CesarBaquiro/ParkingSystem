@@ -1,4 +1,4 @@
-package co.edu.uniquindio.poo.Moto;
+package co.edu.uniquindio.poo.Vehiculo.Moto;
 
 /**
  * Enumerador con tipos de motos

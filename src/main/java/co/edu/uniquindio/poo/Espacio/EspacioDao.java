@@ -1,7 +1,7 @@
-package co.edu.uniquindio.poo.Parqueadero;
+package co.edu.uniquindio.poo.Espacio;
 
-import co.edu.uniquindio.poo.Carro.CarroDao;
-import co.edu.uniquindio.poo.Moto.MotoDao;
+import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
+import co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao;
 
 import java.util.logging.Logger;
 

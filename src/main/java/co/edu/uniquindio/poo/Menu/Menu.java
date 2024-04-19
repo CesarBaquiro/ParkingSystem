@@ -1,15 +1,12 @@
 package co.edu.uniquindio.poo.Menu;
 
-import co.edu.uniquindio.poo.App;
-import co.edu.uniquindio.poo.Carro.CarroDao;
-import co.edu.uniquindio.poo.Moto.MotoDao;
-import co.edu.uniquindio.poo.Parqueadero.EspacioDao;
+import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
+import co.edu.uniquindio.poo.Espacio.EspacioDao;
 
-import java.util.Arrays;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-import static co.edu.uniquindio.poo.Parqueadero.EspacioDao.crearEspacio;
+import static co.edu.uniquindio.poo.Espacio.EspacioDao.crearEspacio;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.configuracionDefecto;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.espacios;
 
@@ -22,13 +19,11 @@ public class Menu {
 
     public static void seleccionarMenu(String opcion){
 
-
-
         switch (opcion) {
                 case "Parqueadero":
                     System.out.println("--------Matriz de parqueadero--------");
-
                     configuracionDefecto();
+
                     EspacioDao espacioPrueba = crearEspacio("D1", true, true, CarroDao.carro1, null);
                     LOG.info("Nuevo espacio creado: " + espacioPrueba.toString());
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());

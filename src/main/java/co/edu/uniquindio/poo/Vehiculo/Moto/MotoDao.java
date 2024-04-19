@@ -1,26 +1,27 @@
-package co.edu.uniquindio.poo.Moto;
+package co.edu.uniquindio.poo.Vehiculo.Moto;
+
+import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 /**
  * Clase para el vehiculo carro, contiene sus atributos
  * y metodos
  * */
-public class MotoDao {
+public class MotoDao extends VehiculoDao {
 
     //Se toman como km/h
     private Integer velocidadMaxima;
     private TipoMoto tipoMoto;
 
-    private String placa;
 
-
-    public MotoDao(Integer velocidadMaxima, TipoMoto tipoMoto, String placa) {
+    public MotoDao(String nombre, Integer velocidadMaxima, TipoMoto tipoMoto, String placa) {
+        super(nombre, placa);
         this.velocidadMaxima = velocidadMaxima;
         this.tipoMoto = tipoMoto;
-        this.placa = placa;
+
     }
 
 
-    public static MotoDao moto1 = new MotoDao(60, TipoMoto.CLASICA, "BWL123");
+    public static MotoDao moto1 = new MotoDao("Roberto", 60, TipoMoto.CLASICA, "BWL123");
 
 
     public Integer getVelocidadMaxima() {

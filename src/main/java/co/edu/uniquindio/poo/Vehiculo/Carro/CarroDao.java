@@ -1,21 +1,20 @@
-package co.edu.uniquindio.poo.Carro;
+package co.edu.uniquindio.poo.Vehiculo.Carro;
 
-import co.edu.uniquindio.poo.Moto.MotoDao;
-import co.edu.uniquindio.poo.Moto.TipoMoto;
+import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 /**
  * Clase para el vehiculo carro, contiene sus atributos
  * y metodos
  * */
-public class CarroDao {
+public class CarroDao extends VehiculoDao {
 
-    private String placa;
+    public CarroDao(String nombre, String placa) {
+        super(nombre, placa);
 
-    public CarroDao(String placa) {
-        this.placa = placa;
+
     }
 
-    public static CarroDao carro1 = new CarroDao("GQQ689");
+    public static CarroDao carro1 = new CarroDao("Camila", "GQQ689");
 
     public String getPlaca() {
         return placa;

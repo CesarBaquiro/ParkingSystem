@@ -1,20 +1,14 @@
 
 h
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8ê‡¬¤ì1
+java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8Íæ¾Çî1
 y
-java:S2629!"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ŠÉ™Û8ì‡¬¤ì1
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8í‡¬¤ì1
->	java:S131""Add a default case to this switch.(°€àâ8ÿ‡¬¤ì1
-G	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8€ˆ¬¤ì1
-L	java:S106#"+Replace this use of System.out by a logger.(ýâü¯ýÿÿÿÿ8ƒˆ¬¤ì1
-X	java:S125""<This block of commented-out lines of code should be removed.(èÞÁá8„ˆ¬¤ì1
-G	java:S106%"+Replace this use of System.out by a logger.(ªà¦Ž8„ˆ¬¤ì1
-F	java:S106("+Replace this use of System.out by a logger.(²—Ù8…ˆ¬¤ì1
-S
-java:S1128"6Remove this unused import 'co.edu.uniquindio.poo.App'.(¥ÄëÚ8†ˆ¬¤ì1
-a
-java:S1128"?Remove this unused import 'co.edu.uniquindio.poo.Moto.MotoDao'.(—®êþÿÿÿÿ8†ˆ¬¤ì1
-O
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8†ˆ¬¤ì1
+java:S2629"\Invoke method(s) only conditionally. Use the built-in formatting to construct this argument.(ŠÉ™Û8Ïæ¾Çî1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8Óæ¾Çî1
+>	java:S131""Add a default case to this switch.(°€àâ8ìæ¾Çî1
+G	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8îæ¾Çî1
+L	java:S106"+Replace this use of System.out by a logger.(ýâü¯ýÿÿÿÿ8ðæ¾Çî1
+X	java:S125"<This block of commented-out lines of code should be removed.(èÞÁá8òæ¾Çî1
+G	java:S106 "+Replace this use of System.out by a logger.(ªà¦Ž8óæ¾Çî1
+F	java:S106#"+Replace this use of System.out by a logger.(²—Ù8ôæ¾Çî1
 M
-java:S1068"+Remove this unused "scanner" private field.(‚ïèýÿÿÿÿ8‡ˆ¬¤ì1
+java:S1068"+Remove this unused "scanner" private field.(‚ïèýÿÿÿÿ8÷æ¾Çî1

@@ -1,0 +1,6 @@
+
+”
+java:S1104"QMake moto1 a static final constant or non-public and provide accessors if needed.(Í³¸‹8ëÒ¼Ÿï1J$cfc80cc3-39d1-4abc-bd79-f70e56771789
+n
+java:S1444"+Make this "public static moto1" field final(Í³¸‹8ìÒ¼Ÿï1J$43d1f86c-470c-4f81-b190-af7488f4f3f4
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£‹Ð›8ïÒ¼Ÿï1J$207c1b51-aa71-46b1-afc7-5a53649b58dd

@@ -21,5 +21,11 @@ b
 2src/main/java/co/edu/uniquindio/poo/Menu/Menu.java,5\6\563db13553e12e8421a8ed2482a513806949e254
 z
 Jsrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoController.java,0\0\00951300208291ab0b859bf12600b216740111f3
-o
-?src/main/java/co/edu/uniquindio/poo/Parqueadero/EspacioDao.java,0\6\06997d2c0a9a4a7cac14d07710a148cf12980f9c
+k
+;src/main/java/co/edu/uniquindio/poo/Espacio/EspacioDao.java,c\0\c028f8acb6bb7fd125272b9b07a618921e74894d
+p
+@src/main/java/co/edu/uniquindio/poo/Vehiculo/Carro/CarroDao.java,5\5\55f59ace7bc620453933cefc3c9a5649d13b729a
+m
+=src/main/java/co/edu/uniquindio/poo/Vehiculo/VehiculoDao.java,f\1\f10aef36030df37289ad204a0bedf0ff8d8811a6
+n
+>src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/MotoDao.java,f\3\f338bc9a8ac8b31f611713da897ede63f91e030e
