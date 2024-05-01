@@ -25,20 +25,20 @@ public class ParqueaderoDao {
     }
 
     //Matriz que define los espacios del parqueadero
-    public static boolean[][] espacios = new boolean[0][0];
+    public static EspacioDao[][] espacios = new EspacioDao[0][0];
 
 
     //Asignacion de espacio 5x5 por defecto
-    public static boolean[][] configuracionDefecto(){
-        espacios = new boolean[5][5];
+    public static EspacioDao[][] configuracionDefecto(){
+        espacios = new EspacioDao[5][5];
 
         //Rellenar la matriz
         for(int i=0; i< espacios.length; i++){
             for(int j=0; j< espacios.length; j++) {
-                espacios[i][j] = false;
+                espacios[i][j] = new EspacioDao("E-"+i,true, false);
             }
         }
-        //espacios[0][0] = true;
+
 
         //Mostrar la matriz en pantalla
         for(int i=0; i< espacios.length; i++){

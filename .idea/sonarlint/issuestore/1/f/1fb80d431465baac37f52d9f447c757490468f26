@@ -1,33 +1,32 @@
 
 ”
-java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(©ŸØÄ8şü¥ì1J$0961f841-3536-40d0-8066-4d611faaf1a5
+java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(©ŸØÄ8¨»„°ó1J$d33821f5-00a0-448f-b3e9-544cfdb26a1b
 œ
-java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(Üß˜¶øÿÿÿÿ8»ª¥ì1J$eef3625d-3d6e-40f5-bdd0-09e6003c9aac
+java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(Üß˜¶øÿÿÿÿ8¨»„°ó1J$ba516708-3823-4c0f-ba3c-ec1a1e311891
 œ
-java:S1104"TMake espacios a static final constant or non-public and provide accessors if needed.(õ‘ÇÎûÿÿÿÿ8Â»³®ë1J$485e8e06-6b45-4412-a406-8c12093dfb8b
+java:S1104"TMake espacios a static final constant or non-public and provide accessors if needed.(ì·ô…øÿÿÿÿ8¨»„°ó1J$f05baaef-323c-43df-982a-168026275a18
 n
-java:S1444"+Make this "public static FILAS" field final(©ŸØÄ8ÿü¥ì1J$3fb66768-3a11-4b00-a8f0-c6af82462061
+java:S1444"+Make this "public static FILAS" field final(©ŸØÄ8©»„°ó1J$1b783162-76d2-4e07-b1fc-bdb5da3ac33f
 v
-java:S1444".Make this "public static COLUMNAS" field final(Üß˜¶øÿÿÿÿ8¼ª¥ì1J$246d89b6-5d09-4f90-937d-c60cf7e5feb4
+java:S1444".Make this "public static COLUMNAS" field final(Üß˜¶øÿÿÿÿ8©»„°ó1J$f0230653-a122-42c3-95b7-e0db365f93eb
 v
-java:S1444".Make this "public static espacios" field final(õ‘ÇÎûÿÿÿÿ8Ã»³®ë1J$7073124c-8725-4e89-bb43-f114c26da9fa
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8Å»³®ë1J$75087dde-ad9d-4eb8-8949-d5b4d5e90cc3
+java:S1444".Make this "public static espacios" field final(ì·ô…øÿÿÿÿ8©»„°ó1J$dc15fbb7-68bd-4419-9fbb-cda753dbbbc3
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8«»„°ó1J$c9e99826-9d57-46a2-9c85-c4b93b6d458b
 “
-java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ŸØÄ8ãêñ¤ì1J$b9624e01-0781-4475-a988-37cade0c31a8
+java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ŸØÄ8­»„°ó1J$40a47675-b92d-40e3-9442-c88f80c45148
 ›
-java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üß˜¶øÿÿÿÿ8À€ò¤ì1J$8cfb0de2-b72c-439a-8505-f28a0cc9d797
+java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üß˜¶øÿÿÿÿ8­»„°ó1J$c7158630-a71c-420f-a7d1-cc69ff65138d
 e
-java:S2386"Make this member "protected".(õ‘ÇÎûÿÿÿÿ8Ü»³®ë1J$81971065-819e-4fa7-846b-222d27a7af69
-]	java:S125)"<This block of commented-out lines of code should be removed.(ÀÏ—ùÿÿÿÿ8Òß¹Çî1
-r	java:S106."+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8È£‹ì1J$841a3b60-ea18-4729-973d-44ed8436491b
-r	java:S1060"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8È£‹ì1J$eb54a8f2-2d18-4164-8636-0431a28120d7
+java:S2386"Make this member "protected".(ì·ô…øÿÿÿÿ8°»„°ó1J$4c677cfc-80b6-40fd-98c8-03e2faee528f
+r	java:S106."+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8¹»„°ó1J$e7fbd4d2-72fe-41c7-b657-3bdd2ea61788
+r	java:S1060"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8¹»„°ó1J$17f30586-1d98-4274-87e8-2e44207e466a
 z
-java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8ç›ğ¤ì1J$d72def77-2598-4e4f-8010-4f4fe505c95d
+java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8º»„°ó1J$635c3931-8f62-4628-8045-d4055b4e29b2
 }
-java:S1068"5Remove this unused "espacioHabilitado" private field.(«‘ë¯üÿÿÿÿ8ç›ğ¤ì1J$eb81f30d-ccd6-4b7e-b5ea-c97df3b563da
+java:S1068"5Remove this unused "espacioHabilitado" private field.(«‘ë¯üÿÿÿÿ8º»„°ó1J$7d307ffe-18ad-4235-b026-401004762d69
 w
-java:S1068"4Remove this unused "espacioProhibido" private field.(–ß®‡8ç›ğ¤ì1J$3465b9bf-356a-4ae0-bb61-b851413d75c1
+java:S1068"4Remove this unused "espacioProhibido" private field.(–ß®‡8»»„°ó1J$e4fa5823-8dcf-4a69-b7e8-7e991b328833
 m
-java:S1068"*Remove this unused "estado" private field.(ò¯¨õ8ç›ğ¤ì1J$656deb70-ac18-4294-a737-14aefb231af1
+java:S1068"*Remove this unused "estado" private field.(ò¯¨õ8»»„°ó1J$c023805c-dd84-45fa-ad0f-f355f1e24086
 j
-java:S1068"'Remove this unused "LOG" private field.(¶šÍ›8â»³®ë1J$9c6801a2-e50e-46ce-9070-502d1f0edc77
+java:S1068"'Remove this unused "LOG" private field.(¶šÍ›8»»„°ó1J$b2bcbb17-8a22-46e0-ae81-ac8e2fdf88f0

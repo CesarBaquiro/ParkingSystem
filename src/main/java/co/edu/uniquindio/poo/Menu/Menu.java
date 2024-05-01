@@ -24,8 +24,8 @@ public class Menu {
                     System.out.println("--------Matriz de parqueadero--------");
                     configuracionDefecto();
 
-                    EspacioDao espacioPrueba = crearEspacio("D1", true, true, CarroDao.carro1, null);
-                    LOG.info("Nuevo espacio creado: " + espacioPrueba.toString());
+                    //EspacioDao espacioPrueba = crearEspacio("D1", true, true, CarroDao.carro1, null);
+                    //LOG.info("Nuevo espacio creado: " + espacioPrueba.toString());
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
                     System.out.println("El dato de la posicion 0, 0 es: " + espacios[0][0]);
 

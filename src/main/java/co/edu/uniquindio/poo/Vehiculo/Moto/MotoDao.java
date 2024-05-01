@@ -13,15 +13,15 @@ public class MotoDao extends VehiculoDao {
     private TipoMoto tipoMoto;
 
 
-    public MotoDao(String nombre, Integer velocidadMaxima, TipoMoto tipoMoto, String placa) {
-        super(nombre, placa);
+    public MotoDao(String nombre, String placa, Integer modelo, Integer velocidadMaxima, TipoMoto tipoMoto ) {
+        super(nombre, placa, modelo);
         this.velocidadMaxima = velocidadMaxima;
         this.tipoMoto = tipoMoto;
 
     }
 
 
-    public static MotoDao moto1 = new MotoDao("Roberto", 60, TipoMoto.CLASICA, "BWL123");
+    public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", 2000, 100,  TipoMoto.CLASICA );
 
 
     public Integer getVelocidadMaxima() {
@@ -40,6 +40,14 @@ public class MotoDao extends VehiculoDao {
         this.tipoMoto = tipoMoto;
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public String getPlaca() {
         return placa;
     }
@@ -48,16 +56,23 @@ public class MotoDao extends VehiculoDao {
         this.placa = placa;
     }
 
+    public Integer getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(Integer modelo) {
+        this.modelo = modelo;
+    }
+
     // Método toString para representar el objeto como cadena de caracteres
     @Override
     public String toString() {
         return "Moto{" +
+                " nombre="+moto1.getNombre()+
                 ", placa="+moto1.getPlaca()+
+                ", modelo="+moto1.getModelo()+
                 ", tipo de moto="+moto1.getTipoMoto()+
                 ", velocidad maxima="+moto1.getVelocidadMaxima()+
                 "}";
     }
-
-
-
 }

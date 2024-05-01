@@ -9,12 +9,6 @@ A
 0src/test/java/co/edu/uniquindio/poo/AppTest.java,6\9\6996ae0735edde0367f37a63fffa05be20e4f03b
 \
 ,src/main/java/co/edu/uniquindio/poo/App.java,d\7\d786b3e028b2de854c85a1e292c84a9d61970fc7
-e
-5src/main/java/co/edu/uniquindio/poo/Moto/MotoDao.java,4\d\4d326f3f33221ea294df63543e329e8822fe05d7
-f
-6src/main/java/co/edu/uniquindio/poo/Moto/TipoMoto.java,4\f\4f6cda0a04f4179390e2d3fec56dc9bdfe78b99a
-g
-7src/main/java/co/edu/uniquindio/poo/Carro/CarroDao.java,4\e\4ee84cd58148db45e7c38119eab89eb580bcf77a
 s
 Csrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoDao.java,1\f\1fb80d431465baac37f52d9f447c757490468f26
 b
@@ -29,3 +23,5 @@ m
 =src/main/java/co/edu/uniquindio/poo/Vehiculo/VehiculoDao.java,f\1\f10aef36030df37289ad204a0bedf0ff8d8811a6
 n
 >src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/MotoDao.java,f\3\f338bc9a8ac8b31f611713da897ede63f91e030e
+o
+?src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/TipoMoto.java,9\a\9a7fc62207dfe36f4472ff4243bfd85c2e8d349b

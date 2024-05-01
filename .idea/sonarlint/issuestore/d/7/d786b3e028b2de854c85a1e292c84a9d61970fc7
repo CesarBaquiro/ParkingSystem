@@ -1,6 +1,6 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(áÌÇ’ûÿÿÿÿ8½ÿÈ®ë1J$c6350b47-cfff-4359-824b-49fa17764cd5
-m	java:S106"+Replace this use of System.out by a logger.(ôœş¸8ŞÊ®ë1J$df1020e7-e5ca-4a4b-9f7f-7f312d6cae24
-m	java:S106"+Replace this use of System.out by a logger.(·ôˆ·8ßÊ®ë1J$6db6cb20-a8ca-4a17-948f-83ab47e14c6b
+r	java:S106"+Replace this use of System.out by a logger.(áÌÇ’ûÿÿÿÿ8½ÿÈ®ë1J$b84da331-4296-4c99-b93a-27d6023e5715
+m	java:S106"+Replace this use of System.out by a logger.(ôœş¸8ŞÊ®ë1J$456e4e91-3ef5-488b-99d5-fb1e273fd3ca
+m	java:S106"+Replace this use of System.out by a logger.(·ôˆ·8ßÊ®ë1J$8b3c46c7-02e3-4ddc-8dab-f91344b1b554
 
-java:S1128"MRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao'.(¢õñ½8ÔçÄ®ë1J$6d8d61b5-1280-4388-9e65-e2834f70aa51
+java:S1128"MRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao'.(¢õñ½8ÔçÄ®ë1J$11ab0482-2f98-4cbf-a7c4-7be41a524d49

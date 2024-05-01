@@ -14,6 +14,13 @@ public class EspacioDao {
 
     private static final Logger LOG = Logger.getLogger(EspacioDao.class.getName());
 
+    // Constructor sin los objetos carro y moto
+    public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado) {
+        this.id = id;
+        this.espacioHabilitado = espacioHabilitado;
+        this.ocupado = ocupado;
+    }
+
     // Constructor con todos los parámetros
     public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado, CarroDao carro, MotoDao moto) {
         this.id = id;
@@ -23,12 +30,9 @@ public class EspacioDao {
         this.moto = moto;
     }
 
-    // Constructor sin los objetos carro y moto
-    public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado) {
-        this.id = id;
-        this.espacioHabilitado = espacioHabilitado;
-        this.ocupado = ocupado;
-    }
+
+
+
 
     // Método para crear un nuevo espacio
     public static EspacioDao crearEspacio(String id, boolean espacioHabilitado, boolean ocupado, CarroDao carro, MotoDao moto) {
@@ -42,7 +46,7 @@ public class EspacioDao {
                 "id='" + id + '\'' +
                 ", espacioHabilitado=" + espacioHabilitado +
                 ", ocupado=" + ocupado +
-                ", "+ carro.toString()+
-                "}";
+                //", "+ carro.toString()+
+                "} |";
     }
 }
