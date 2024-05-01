@@ -1,8 +1,8 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ‚»Ş8” ¤ì1J$7d92c672-d988-4406-a26d-c02e34a50278
-l
-java:S1068")Remove this unused "carro" private field.(üÕí¢8†Å°ó1J$eb3829cb-bf69-409d-ae47-0381be5f309e
-k
-java:S1068"(Remove this unused "moto" private field.(‰¿‡8‡µñŒó1J$25588b49-d160-4446-906a-c7b59c5cee15
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ‚»Ş8ÍÒÃ²ó1J$10a81b9a-4226-4e0f-9a85-9be970d99ebf
+
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8àÒÃ²ó1J$d90d3f58-9a6b-4027-96df-a5814b389b23
+
+java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8àÒÃ²ó1J$f3bebec9-f529-4c06-802a-5f6a1b96f51a
 j
-java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8¦ ¤ì1J$6b209e95-f603-4ed2-ac15-98ea09edc187
+java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8àÒÃ²ó1J$94bdc3ad-ec2b-45a6-a76b-cda6198d4ff3

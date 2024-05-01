@@ -1,11 +1,23 @@
 
 z
-java:S2629"7Use the built-in formatting to construct this argument.(Ã³¥¦8–ğš¥ì1J$10b4a1a3-da13-4fb7-bfe2-1757bdc055b5
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8—ğš¥ì1J$ccd3ffa1-70e5-4866-8444-30edeabdd3ae
-~	java:S107"<Method has 8 parameters, which is greater than 7 authorized.(Æ¸’8›ğš¥ì1J$72f2de2c-bf17-408a-96dc-1199ac9a7536
+java:S2629"7Use the built-in formatting to construct this argument.(Ã³¥¦8Êş²ó1J$966cc92c-482b-4891-b675-9f15d14d43c4
+z
+java:S2629!"7Use the built-in formatting to construct this argument.(Ã³¥¦8Ìş²ó1J$4444e946-62ec-43b7-a29e-8c153e34c6b8
+
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ŸÊ‚ü8Îş²ó1J$184261ae-08fd-4333-b87d-3c5424395d65
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8Ïş²ó1J$04fc622e-eef7-4f08-8359-83018eb309d9
+}
+java:S1118":Add a private constructor to hide the implicit public one.(¹Á¸À8Óş²ó1J$18390d23-a580-47ff-bd14-c0f0f6257cc8
 d
-java:S1116"Remove this empty statement.(‡×‡äøÿÿÿÿ8ğš¥ì1J$37432fe7-e910-4c36-b96d-9804326d4a08
+java:S1116"Remove this empty statement.(‡×‡äøÿÿÿÿ8Õş²ó1J$351ba528-67c1-4d68-981f-06c288a8846d
 o
-java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ÿğš¥ì1J$72ffe7ac-7595-4374-8b8b-1cedefab9125
+java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ûş²ó1J$f3046371-7364-4796-9d0c-b8ebb43e910a
 o
-java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ÿğš¥ì1J$53199117-9e38-41ca-a517-65d3c396ca00
+java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Üş²ó1J$d6eb97ee-51aa-406f-88c9-b43d1d610d59
+m	java:S106"+Replace this use of System.out by a logger.(Ãöôæ8à¶¥²ó1J$9ca3ab28-35e5-489d-b304-9ef33df38376
+
+java:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ŸÊ‚ü8ûú²ó1J$65ef392a-37c3-44d9-b07e-f68d7b75bb8e
+
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8ÑÓ£²ó1J$68637fb4-78d9-4ba6-a049-9ede386222a1
+
+java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8ÑÓ£²ó1J$32ea6f5e-0a5f-4e2e-9678-b92f60f69d3a
