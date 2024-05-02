@@ -1,5 +1,6 @@
 package co.edu.uniquindio.poo.Vehiculo.Moto;
 
+import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 /**
@@ -21,6 +22,9 @@ public class MotoDao extends VehiculoDao {
     }
 
 
+    public static MotoDao crearMoto(String nombre, String placa, Integer modelo, Integer velocidadMaxima, TipoMoto tipoMoto){
+        return new MotoDao(nombre, placa, modelo, velocidadMaxima, tipoMoto);
+    }
     public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", 2000, 100,  TipoMoto.CLASICA );
 
 

@@ -1,7 +1,6 @@
 package co.edu.uniquindio.poo.Parqueadero;
 
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
-import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 
 import java.util.logging.Logger;
 
@@ -13,6 +12,9 @@ public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
     public static int FILAS = 5;
+
+
+
     public static int COLUMNAS = 5;
     private Boolean espacioHabilitado;
     private Boolean espacioProhibido;
@@ -42,7 +44,7 @@ public class ParqueaderoDao {
                 letraCodigoAscii = letraCodigoAscii+1;
             for(int j=0; j< espacios.length; j++) {
                 numId = numId +1;
-                String id = caracter + "-"+numId;
+                String id = caracter + "-" +numId;
                 espacios[i][j] = new EspacioDao(id,true, false);
             }
         }
@@ -63,6 +65,51 @@ public class ParqueaderoDao {
         }
     }
 
+
+    public EspacioDao getMatrizEspacios(EspacioDao espacios) {
+        return espacios;
+    }
+
+    public void setMatrizEspacios(EspacioDao[][] matrizEspacios) {
+        this.matrizEspacios = matrizEspacios;
+    }
+
+
+    public Boolean getEspacioHabilitado() {
+        return espacioHabilitado;
+    }
+
+    public void setEspacioHabilitado(Boolean espacioHabilitado) {
+        this.espacioHabilitado = espacioHabilitado;
+    }
+
+    public Boolean getEspacioProhibido() {
+        return espacioProhibido;
+    }
+
+    public void setEspacioProhibido(Boolean espacioProhibido) {
+        this.espacioProhibido = espacioProhibido;
+    }
+
+    public Boolean getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Boolean estado) {
+        this.estado = estado;
+    }
+
+    public static EspacioDao[][] getEspacios() {
+        return espacios;
+    }
+
+    public static void setEspacios(EspacioDao[][] espacios) {
+        ParqueaderoDao.espacios = espacios;
+    }
+
+    public static EspacioDao getEspacio(Integer fila, Integer columna) {
+        return espacios[fila][columna];
+    }
 
 
 }

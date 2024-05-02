@@ -8,47 +8,74 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 
+
+import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.registrar;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
-import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.carro1;
+
 
 public class Menu {
     private static final Logger LOG = Logger.getLogger(Menu.class.getName());
+
+
     private static final Scanner scanner = new Scanner(System.in);
-    String opcion;
+    public static void seleccionarMenu() {
 
+        Integer opcion = 0;
 
+        do {
+            // Mostrar el menú
+            System.out.println("----------------Menú:--------------");
+            System.out.println("1. Parqueadero");
+            System.out.println("2. Registrar ingreso");
+            System.out.println("3. Registrar salida");
+            System.out.println("4. Configuracion");
+            System.out.println("5. Salir");
+            System.out.print("Seleccione una opción: ");
 
-    public static void seleccionarMenu(String opcion){
+            opcion = scanner.nextInt();
 
-        switch (opcion) {
-                case "Parqueadero":
+            switch (opcion) {
+                case 1:
                     System.out.println("--------Matriz de parqueadero--------");
-                    configuracionDefecto();
-                    verMatrizConsola();
-
-                    //EspacioDao espacioPrueba = crearEspacio("D1", true, true, CarroDao.carro1, null);
-                    //LOG.info("Nuevo espacio creado: " + espacioPrueba.toString());
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
+                    verMatrizConsola();
                     System.out.println("El dato de la posicion 0, 0 es: " + espacios[1][1]);
 
                     System.out.println("Finalizando");
 
-                    System.out.println("---------Nuevo espacio registrado----------");
 
-                    ParqueaderoController.crearIngreso(1,1,espacios[1][1].getId(), espacios[1][1].getEspacioHabilitado(), espacios[1][1].getOcupado(), carro1);
-
-
-                    System.out.println("El dato de la posicion 1, 1 es: " + espacios[1][1]);
-                    verMatrizConsola();
 
 
                     break;
-                case "Configuracion":
-                    System.out.println("Ir a la configuracion");
+                case 2:
+                    System.out.println("--------Seleccione ue desea ingrear:-------");
+                    System.out.println("1. Carro");
+                    System.out.println("2. Moto");
+                    Integer seleccionarVehiculo = scanner.nextInt();
+                    registrar(seleccionarVehiculo);
+                    //El scanner esta en el metodo
+
+                    System.out.println("----------------Se registro--------------");
+
+
+
+
                     break;
+
+                default:
+                    System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
 
             }
+
+        } while (opcion != 3);
+        scanner.close();
+
     }
 
 
+
 }
+
+
+
+

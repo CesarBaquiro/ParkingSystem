@@ -17,13 +17,8 @@ public class App {
     public static void main(String[] args) {
 
         LOG.info("Hello World!");
-
-        System.out.println("Seleccione una opcion:");
-        System.out.println("Parqueadero");
-        System.out.println("Configuracion");
-        String opcion = scanner.nextLine();
-        seleccionarMenu(opcion);
-
+        configuracionDefecto();
+        seleccionarMenu();
 
     }
 }
