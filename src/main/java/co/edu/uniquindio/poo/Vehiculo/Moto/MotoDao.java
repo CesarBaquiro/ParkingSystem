@@ -14,7 +14,7 @@ public class MotoDao extends VehiculoDao {
     private TipoMoto tipoMoto;
 
 
-    public MotoDao(String nombre, String placa, Integer modelo, Integer velocidadMaxima, TipoMoto tipoMoto ) {
+    public MotoDao(String nombre, String placa, String modelo, Integer velocidadMaxima, TipoMoto tipoMoto ) {
         super(nombre, placa, modelo);
         this.velocidadMaxima = velocidadMaxima;
         this.tipoMoto = tipoMoto;
@@ -22,10 +22,10 @@ public class MotoDao extends VehiculoDao {
     }
 
 
-    public static MotoDao crearMoto(String nombre, String placa, Integer modelo, Integer velocidadMaxima, TipoMoto tipoMoto){
+    public static MotoDao crearMoto(String nombre, String placa, String modelo, Integer velocidadMaxima, TipoMoto tipoMoto){
         return new MotoDao(nombre, placa, modelo, velocidadMaxima, tipoMoto);
     }
-    public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", 2000, 100,  TipoMoto.CLASICA );
+    public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", "2000", 100,  TipoMoto.CLASICA );
 
 
     public Integer getVelocidadMaxima() {
@@ -60,11 +60,11 @@ public class MotoDao extends VehiculoDao {
         this.placa = placa;
     }
 
-    public Integer getModelo() {
+    public String getModelo() {
         return modelo;
     }
 
-    public void setModelo(Integer modelo) {
+    public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 

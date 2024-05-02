@@ -23,12 +23,36 @@ public class ParqueaderoController {
     // Método para crear y guardar un nuevo espacio en la matriz
     static Integer seleccionarVehiculo = null;
 
+    static Integer selectFila;
+    static Integer selectColumna;
+
+
 
     public static void registrar(Integer seleccionarVehiculo){
+        System.out.println("---Ingrese la posicion donde quiere el registro---");
+        System.out.println("Ingrese la fila: ");
+        selectFila = scanner.nextInt();
+
+        System.out.println("Ingrese la columna: ");
+        selectColumna = scanner.nextInt();
+
         if(seleccionarVehiculo != null){
+            System.out.println("---Ingrese los datos del vehiculo---");
+            System.out.println("Ingrese el nombre del propietario: ");
+            String nombre = scanner.nextLine();
+
+            System.out.println("Ingrese la placa: ");
+            String placa = scanner.nextLine();
+
+            System.out.println("Ingrese el modelo: ");
+            String modelo = scanner.nextLine();
+
+
             //Si es 1 se crea un carro
             if (seleccionarVehiculo == 1) {
-                actualizarEspacio(0, 0, ParqueaderoDao.getEspacio(0,0).getId(), ParqueaderoDao.getEspacio(0,0).getEspacioHabilitado(), ParqueaderoDao.getEspacio(0,0).getOcupado(), crearCarro("Camila", "GQQ689", 2000));
+
+                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getOcupado(), crearCarro(nombre, placa, modelo));
+
             }else if(seleccionarVehiculo == 2){
                 //crearIngreso(1, 1, "Adasd", true, true, crearMoto());
             }

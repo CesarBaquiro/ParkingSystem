@@ -8,13 +8,13 @@ import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
  * */
 public class CarroDao extends VehiculoDao {
 
-    public CarroDao(String nombre, String placa, Integer modelo) {
+    public CarroDao(String nombre, String placa, String modelo) {
         super(nombre, placa, modelo);
 
 
     }
 
-    public static CarroDao crearCarro(String nombre, String placa, Integer modelo){
+    public static CarroDao crearCarro(String nombre, String placa, String modelo){
         return new CarroDao(nombre, placa, modelo);
     }
 
@@ -37,11 +37,11 @@ public class CarroDao extends VehiculoDao {
         this.placa = placa;
     }
 
-    public Integer getModelo() {
+    public String getModelo() {
         return modelo;
     }
 
-    public void setModelo(Integer modelo) {
+    public void setModelo(String modelo) {
         this.modelo = modelo;
     }
 
