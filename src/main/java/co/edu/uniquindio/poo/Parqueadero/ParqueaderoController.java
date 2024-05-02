@@ -35,6 +35,7 @@ public class ParqueaderoController {
 
         System.out.println("Ingrese la columna: ");
         selectColumna = scanner.nextInt();
+        scanner.nextLine();
 
         if(seleccionarVehiculo != null){
             System.out.println("---Ingrese los datos del vehiculo---");
