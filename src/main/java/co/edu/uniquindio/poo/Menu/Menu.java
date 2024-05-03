@@ -48,7 +48,7 @@ public class Menu {
 
                     break;
                 case 2:
-                    System.out.println("--------Seleccione ue desea ingrear:-------");
+                    System.out.println("--------Seleccione que desea ingrear:-------");
                     System.out.println("1. Carro");
                     System.out.println("2. Moto");
                     Integer seleccionarVehiculo = scanner.nextInt();
