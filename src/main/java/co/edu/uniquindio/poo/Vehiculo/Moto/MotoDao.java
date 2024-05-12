@@ -25,7 +25,7 @@ public class MotoDao extends VehiculoDao {
     public static MotoDao crearMoto(String nombre, String placa, String modelo, Integer velocidadMaxima, TipoMoto tipoMoto){
         return new MotoDao(nombre, placa, modelo, velocidadMaxima, tipoMoto);
     }
-    public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", "2000", 100,  TipoMoto.CLASICA );
+    //public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", "2000", 100,  TipoMoto.CLASICA );
 
 
     public Integer getVelocidadMaxima() {
@@ -72,11 +72,11 @@ public class MotoDao extends VehiculoDao {
     @Override
     public String toString() {
         return "Moto{" +
-                " nombre="+moto1.getNombre()+
-                ", placa="+moto1.getPlaca()+
-                ", modelo="+moto1.getModelo()+
-                ", tipo de moto="+moto1.getTipoMoto()+
-                ", velocidad maxima="+moto1.getVelocidadMaxima()+
+                " nombre="+nombre+
+                ", placa="+placa+
+                ", modelo="+modelo+
+                ", tipo de moto="+tipoMoto+
+                ", velocidad maxima="+velocidadMaxima+
                 "}";
     }
 }

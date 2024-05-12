@@ -2,6 +2,7 @@ package co.edu.uniquindio.poo.Parqueadero;
 import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
 import co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao;
+import co.edu.uniquindio.poo.Vehiculo.Moto.TipoMoto;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 import java.util.Scanner;
@@ -55,7 +56,25 @@ public class ParqueaderoController {
                 actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getOcupado(), crearCarro(nombre, placa, modelo));
 
             }else if(seleccionarVehiculo == 2){
-                //crearIngreso(1, 1, "Adasd", true, true, crearMoto());
+                System.out.println("Ingrese la velocidad maxima que alcanza la moto: ");
+                Integer velocidadMaxima = scanner.nextInt();
+                scanner.nextLine();
+
+                System.out.println("Seleccione el tipo de moto: ");
+                System.out.println("1. Clasica");
+                System.out.println("2. Hibrida");
+                Integer seleccionTipoMoto = scanner.nextInt();
+                scanner.nextLine();
+
+                TipoMoto tipoMoto = TipoMoto.CLASICA;
+
+                if(seleccionTipoMoto == 1){
+                    tipoMoto = TipoMoto.CLASICA;
+                }else{
+                    tipoMoto = TipoMoto.HIBRIDA;
+                }
+
+                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto));
             }
         }
     }

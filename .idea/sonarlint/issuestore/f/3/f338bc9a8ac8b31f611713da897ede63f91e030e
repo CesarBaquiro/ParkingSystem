@@ -1,6 +1,5 @@
 
-™
-java:S1104"QMake moto1 a static final constant or non-public and provide accessors if needed.(êü»¿ýÿÿÿÿ8®€ÝŒó1J$96d97f94-0fab-4a55-b0ff-36d121ae60ac
-s
-java:S1444"+Make this "public static moto1" field final(êü»¿ýÿÿÿÿ8°€ÝŒó1J$47deb934-d625-4b7c-8883-798aeaf59c8b
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£‹Ð›8±€ÝŒó1J$25aa7294-d65a-4205-910e-441c4bb6565a
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£‹Ð›8±€ÝŒó1J$24761221-ba3c-4bde-bc7a-d28e2274c4ba
+~	java:S125"<This block of commented-out lines of code should be removed.(»ˆ µ8ŠÚùÐö1J$519ed838-6f95-4545-9430-35029848095a
+g
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8ŸÍüÐö1

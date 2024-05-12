@@ -25,3 +25,6 @@ n
 >src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/MotoDao.java,f\3\f338bc9a8ac8b31f611713da897ede63f91e030e
 o
 ?src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/TipoMoto.java,9\a\9a7fc62207dfe36f4472ff4243bfd85c2e8d349b
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302

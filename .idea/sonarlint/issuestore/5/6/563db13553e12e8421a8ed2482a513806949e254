@@ -1,20 +1,28 @@
 
-Ž
-java:S1301"KReplace this "switch" statement by "if" statements to increase readability.(°€àâ8¸¨±²ó1J$011832fc-0e05-4497-9d04-47be016416c9
 ¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8¼¨±²ó1J$226faac3-099b-4ce2-8780-0785c8df3293
-d	java:S131""Add a default case to this switch.(°€àâ8Å¨±²ó1J$dfbb69e6-f8ee-4a57-8744-8b6650052bd7
-m	java:S106"+Replace this use of System.out by a logger.(áâ¬ì8Æ¨±²ó1J$61a66d3b-4d46-48ef-b7d6-d504153aeb95
-r	java:S106 "+Replace this use of System.out by a logger.(±Åˆ®øÿÿÿÿ8Ê¨±²ó1J$1e7d4c96-67e2-43c4-ba3d-ea79e3b79992
-ƒ	java:S125"<This block of commented-out lines of code should be removed.(£Ùó¤þÿÿÿÿ8Ë¨±²ó1J$7df257e0-c083-4cd5-a5dd-09e6a3559a2f
-m	java:S106""+Replace this use of System.out by a logger.(ªà¦Ž8Ì¨±²ó1J$92ef0beb-d9b9-496f-8151-c7e56560c42a
-r	java:S106$"+Replace this use of System.out by a logger.(æ‚íÎûÿÿÿÿ8Ì¨±²ó1J$8769018b-8cc8-4b36-a7f3-0b491f86a2ca
-l	java:S106)"+Replace this use of System.out by a logger.(žŒÒ<8Î¨±²ó1J$5d8b99be-2d77-4cd3-ac93-894f60886425
-l	java:S106/"+Replace this use of System.out by a logger.(²—Ù8Î¨±²ó1J$5d2f4169-e68b-484f-a63f-f0ead92512a2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8îíàÐö1
+G	java:S106"+Replace this use of System.out by a logger.(­ÃÒü8öíàÐö1
+L	java:S106"+Replace this use of System.out by a logger.(ô‘ÏØþÿÿÿÿ8öíàÐö1
+L	java:S106"+Replace this use of System.out by a logger.(õ—…ôùÿÿÿÿ8÷íàÐö1
+G	java:S106"+Replace this use of System.out by a logger.(¸½Òà8÷íàÐö1
+G	java:S106"+Replace this use of System.out by a logger.(Ú‰ãå8øíàÐö1
+r	java:S106 "+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8Ê¨±²ó1J$1e7d4c96-67e2-43c4-ba3d-ea79e3b79992
+L	java:S106!"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8øíàÐö1
+m	java:S106'"+Replace this use of System.out by a logger.(áâ¬ì8Æ¨±²ó1J$61a66d3b-4d46-48ef-b7d6-d504153aeb95
+X	java:S125("<This block of commented-out lines of code should be removed.(èÞÁá8ýíàÐö1
+L	java:S106*"+Replace this use of System.out by a logger.(±Åˆ®øÿÿÿÿ8þíàÐö1
+m	java:S106,"+Replace this use of System.out by a logger.(ªà¦Ž8Ì¨±²ó1J$92ef0beb-d9b9-496f-8151-c7e56560c42a
+G	java:S1063"+Replace this use of System.out by a logger.(Ù·˜ì8ÿíàÐö1
+G	java:S1064"+Replace this use of System.out by a logger.(§¨¿´8ÿíàÐö1
+L	java:S1065"+Replace this use of System.out by a logger.(§—ÑÉþÿÿÿÿ8ÿíàÐö1
+G	java:S106:"+Replace this use of System.out by a logger.(¤Šà¤8îàÐö1
+G	java:S106B"+Replace this use of System.out by a logger.(¨ùÂ‡8‚îàÐö1
+v
+java:S1128"TRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoController'.(ÒË…Õùÿÿÿÿ8‚îàÐö1
 
 java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8Ï·µ²ó1J$9c515d43-722b-4e1c-930d-7e73d856632c
 
 java:S1128"ERemove this unused import 'co.edu.uniquindio.poo.Espacio.EspacioDao'.(’¶°äýÿÿÿÿ8Ñ·µ²ó1J$d7a55932-64a4-4571-9b2b-613729f2dd85
 j
-java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8Ï¨±²ó1J$8c1b39e6-c3b4-4c51-b404-b0c3c7872185
-s
-java:S1068"+Remove this unused "scanner" private field.(‚ïèýÿÿÿÿ8Ï¨±²ó1J$ab5d5013-dc6a-4773-b0c9-1fdc51eb17a5
+java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8Ï¨±²ó1J$8c1b39e6-c3b4-4c51-b404-b0c3c7872185
