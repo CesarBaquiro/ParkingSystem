@@ -1,23 +1,28 @@
 
-z
-java:S2629"7Use the built-in formatting to construct this argument.(Ã³¥¦8Êş²ó1J$966cc92c-482b-4891-b675-9f15d14d43c4
-z
-java:S2629!"7Use the built-in formatting to construct this argument.(Ã³¥¦8Ìş²ó1J$4444e946-62ec-43b7-a29e-8c153e34c6b8
-
-java:S4973"<Strings and Boxed types should be compared using "equals()".(ŸÊ‚ü8Îş²ó1J$184261ae-08fd-4333-b87d-3c5424395d65
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8Ïş²ó1J$04fc622e-eef7-4f08-8359-83018eb309d9
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8®íæĞö1J$86976857-ce74-4c90-b5a3-22d052fb1a25
 }
-java:S1118":Add a private constructor to hide the implicit public one.(¹Á¸À8Óş²ó1J$18390d23-a580-47ff-bd14-c0f0f6257cc8
+java:S1118":Add a private constructor to hide the implicit public one.(¹Á¸À8ºíæĞö1J$98210d79-3280-46ba-896b-3b8ec5dac0f9
 d
-java:S1116"Remove this empty statement.(‡×‡äøÿÿÿÿ8Õş²ó1J$351ba528-67c1-4d68-981f-06c288a8846d
+java:S1116"Remove this empty statement.(‡×‡äøÿÿÿÿ8½íæĞö1J$3cd61957-12b8-47f7-a4e4-d1778e7c2fbd
+„
+java:S1854E"<Remove this useless assignment to local variable "tipoMoto".(¹Šì–ÿÿÿÿÿ8íñĞö1J$ed86b911-2eaa-4806-82ad-43e0864ddc56
+r	java:S106!"+Replace this use of System.out by a logger.(Ò÷±Ÿÿÿÿÿÿ8ÄíæĞö1J$a64ace05-46ac-4c34-a258-3b5931378ab4
+r	java:S106""+Replace this use of System.out by a logger.(ËÂŞÄşÿÿÿÿ8ÅíæĞö1J$ee5505f2-c78a-4c89-88fa-5b272f316272
+r	java:S106%"+Replace this use of System.out by a logger.(ƒµ¨¼ÿÿÿÿÿ8ÅíæĞö1J$dcc24a98-161d-4c90-ad77-0ec4a6b47cf8
+l	java:S106*"+Replace this use of System.out by a logger.(Ü‡ã38ÆíæĞö1J$9ae4f918-16fc-44a2-ad4c-dae7c9946c19
+m	java:S106+"+Replace this use of System.out by a logger.(·ğÎí8ÆíæĞö1J$4e51875b-ecd7-4b8c-92bb-199306e277c4
+r	java:S106."+Replace this use of System.out by a logger.(¬Š„Õùÿÿÿÿ8ÇíæĞö1J$a87f23a1-47ba-4de9-bb08-3f21a6aa9e87
+m	java:S1061"+Replace this use of System.out by a logger.(¼šØ8ÇíæĞö1J$90958e85-0939-4271-b1fe-61508a97921b
+m	java:S106;"+Replace this use of System.out by a logger.(ƒ‰³‰8ÉíæĞö1J$b70ace5e-9d9f-4d3d-9fbf-6cc6938e0e52
+m	java:S106?"+Replace this use of System.out by a logger.(ê¸ºÆ8ÌíæĞö1J$50abb73d-cd7e-44e5-957d-3791000cd722
+r	java:S106@"+Replace this use of System.out by a logger.(ø±êüÿÿÿÿ8ÌíæĞö1J$228aa27c-b6a1-475e-b708-fca6df79c09e
+m	java:S106A"+Replace this use of System.out by a logger.(§¡¯Ä8ÌíæĞö1J$17141d65-59b3-4eb1-8d55-f2cb39275c12
 o
-java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ûş²ó1J$f3046371-7364-4796-9d0c-b8ebb43e910a
+java:S1125T"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8ÒíæĞö1J$462840d3-571c-4c66-b1c4-71378639f939
 o
-java:S1125"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Üş²ó1J$d6eb97ee-51aa-406f-88c9-b43d1d610d59
-m	java:S106"+Replace this use of System.out by a logger.(Ãöôæ8à¶¥²ó1J$9ca3ab28-35e5-489d-b304-9ef33df38376
-
-java:S3923"[Remove this conditional structure or edit its code blocks so that they're not all the same.(ŸÊ‚ü8ûú²ó1J$65ef392a-37c3-44d9-b07e-f68d7b75bb8e
+java:S1125T"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8ÒíæĞö1J$9cc4daea-a456-442c-9964-222fd793c5ad
+m	java:S106V"+Replace this use of System.out by a logger.(ŸÄ‹¼8ÔíæĞö1J$32d6e087-6e64-431f-b79a-da1ded7214af
 
-java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8ÑÓ£²ó1J$68637fb4-78d9-4ba6-a049-9ede386222a1
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8šíñĞö1J$d145b50f-2fa7-44d6-9450-9fc8f1caff86
 
-java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8ÑÓ£²ó1J$32ea6f5e-0a5f-4e2e-9678-b92f60f69d3a
+java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8šíñĞö1J$3a5c3176-e783-40bd-baa1-b47fbd92380e
