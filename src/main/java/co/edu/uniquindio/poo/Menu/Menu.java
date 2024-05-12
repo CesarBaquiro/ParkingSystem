@@ -8,8 +8,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 
-
-import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.registrar;
+import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.*;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
 
 
@@ -39,12 +38,9 @@ public class Menu {
                     System.out.println("--------Matriz de parqueadero--------");
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
                     verMatrizConsola();
-                    System.out.println("El dato de la posicion 0, 0 es: " + espacios[1][1]);
-
-                    System.out.println("Finalizando");
-
-
-
+                    System.out.println("La hora actual es: "+ tiempoRealFormateadoRegistro);
+                    //System.out.println(duracion);
+                    //System.out.println("La diferencia es de " + horas + " horas y " + minutos + " minutos.");
 
                     break;
                 case 2:
@@ -56,10 +52,11 @@ public class Menu {
                     //El scanner esta en el metodo
 
                     System.out.println("----------------Se registro--------------");
-
-
-
-
+                    break;
+                case 3:
+                    System.out.println("--------Ingrese que espacio va a registrar la salida:-------");
+                    registrarSalida();
+                    System.out.println("----------------Se registro la salida--------------");
                     break;
 
                 default:
@@ -67,7 +64,7 @@ public class Menu {
 
             }
 
-        } while (opcion != 3);
+        } while (opcion != 5);
         scanner.close();
 
     }

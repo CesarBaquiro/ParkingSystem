@@ -17,6 +17,7 @@ public class App {
     public static void main(String[] args) {
 
         LOG.info("Hello World!");
+
         configuracionDefecto();
         seleccionarMenu();
 

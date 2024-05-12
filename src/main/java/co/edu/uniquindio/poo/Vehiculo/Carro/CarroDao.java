@@ -10,16 +10,11 @@ public class CarroDao extends VehiculoDao {
 
     public CarroDao(String nombre, String placa, String modelo) {
         super(nombre, placa, modelo);
-
-
     }
 
     public static CarroDao crearCarro(String nombre, String placa, String modelo){
         return new CarroDao(nombre, placa, modelo);
     }
-
-    //public static CarroDao carro1 = new CarroDao("Camila", "GQQ689", 2000);
-
 
     public String getNombre() {
         return nombre;

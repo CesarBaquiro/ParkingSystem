@@ -1,28 +1,30 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8¼¨±²ó1J$226faac3-099b-4ce2-8780-0785c8df3293
-W
-java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8îíàĞö1
-G	java:S106"+Replace this use of System.out by a logger.(­ÃÒü8öíàĞö1
-L	java:S106"+Replace this use of System.out by a logger.(ô‘ÏØşÿÿÿÿ8öíàĞö1
-L	java:S106"+Replace this use of System.out by a logger.(õ—…ôùÿÿÿÿ8÷íàĞö1
-G	java:S106"+Replace this use of System.out by a logger.(¸½Òà8÷íàĞö1
-G	java:S106"+Replace this use of System.out by a logger.(Ú‰ãå8øíàĞö1
-r	java:S106 "+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8Ê¨±²ó1J$1e7d4c96-67e2-43c4-ba3d-ea79e3b79992
-L	java:S106!"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8øíàĞö1
-m	java:S106'"+Replace this use of System.out by a logger.(áâ¬ì8Æ¨±²ó1J$61a66d3b-4d46-48ef-b7d6-d504153aeb95
-X	java:S125("<This block of commented-out lines of code should be removed.(èŞÁá8ıíàĞö1
-L	java:S106*"+Replace this use of System.out by a logger.(±Åˆ®øÿÿÿÿ8şíàĞö1
-m	java:S106,"+Replace this use of System.out by a logger.(ªà¦8Ì¨±²ó1J$92ef0beb-d9b9-496f-8151-c7e56560c42a
-G	java:S1063"+Replace this use of System.out by a logger.(Ù·˜ì8ÿíàĞö1
-G	java:S1064"+Replace this use of System.out by a logger.(§¨¿´8ÿíàĞö1
-L	java:S1065"+Replace this use of System.out by a logger.(§—ÑÉşÿÿÿÿ8ÿíàĞö1
-G	java:S106:"+Replace this use of System.out by a logger.(¤Šà¤8îàĞö1
-G	java:S106B"+Replace this use of System.out by a logger.(¨ùÂ‡8‚îàĞö1
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8è¦éÖö1J$34fd0818-52e3-495f-bb82-c4088b957690
+}
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8–§éÖö1J$c1889ad2-871e-4a4b-a350-9c9b7db08db6
+m	java:S106"+Replace this use of System.out by a logger.(­ÃÒü8š§éÖö1J$387fbc84-a4db-4961-9779-adb20c014696
+r	java:S106"+Replace this use of System.out by a logger.(ô‘ÏØşÿÿÿÿ8š§éÖö1J$732513a1-aa81-4890-be24-1342140daac3
+r	java:S106"+Replace this use of System.out by a logger.(õ—…ôùÿÿÿÿ8š§éÖö1J$b6e916b2-f649-422e-83d1-81ab5a39de52
+m	java:S106"+Replace this use of System.out by a logger.(¸½Òà8š§éÖö1J$dfb57f01-baab-401c-832c-ddbe22bc8c41
+m	java:S106"+Replace this use of System.out by a logger.(Ú‰ãå8›§éÖö1J$5e56b1a9-80b4-4d40-9490-3ed2c9cb45d7
+r	java:S106"+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8›§éÖö1J$3f9834eb-f4b9-4165-8be0-7d9bc1e02a67
+r	java:S106 "+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8›§éÖö1J$8e54d4d7-33a0-48dc-bca4-8a23b3f9b37b
+m	java:S106&"+Replace this use of System.out by a logger.(áâ¬ì8›§éÖö1J$34ee65fb-f036-4a15-9cbe-19a9597acb11
+~	java:S125'"<This block of commented-out lines of code should be removed.(èŞÁá8œ§éÖö1J$56d09e7e-8921-4b44-b4b8-6f13d3f1695e
+r	java:S106)"+Replace this use of System.out by a logger.(¾¥•ßùÿÿÿÿ8œ§éÖö1J$654400a7-be77-456b-a4fa-6ba2deb80218
+~	java:S125*"<This block of commented-out lines of code should be removed.(íñ¤Ò8›Ô¦Øö1J$cec39085-ef24-4fd0-89e0-bc47080c0551
+m	java:S106/"+Replace this use of System.out by a logger.(Ù·˜ì8§éÖö1J$2ffb90a2-bbe3-43b0-b06e-5eff7379d7dc
+m	java:S1060"+Replace this use of System.out by a logger.(§¨¿´8§éÖö1J$5c09549f-735b-485d-bb66-17e41f07eea4
+r	java:S1061"+Replace this use of System.out by a logger.(§—ÑÉşÿÿÿÿ8§éÖö1J$3912b0f7-6fea-4755-b730-9faa1d296456
+m	java:S1066"+Replace this use of System.out by a logger.(¤Šà¤8šÁÍ×ö1J$940b802a-fef1-4905-b4fa-57518a82d1b6
+m	java:S1069"+Replace this use of System.out by a logger.(®¡ı8¹éâ×ö1J$1ea44ba4-10a9-4dac-b285-6ca6929892c4
+r	java:S106;"+Replace this use of System.out by a logger.(äŸ®†şÿÿÿÿ8ÇÇò×ö1J$4671f1ef-015c-4b91-b1aa-789e2b16ab90
+m	java:S106?"+Replace this use of System.out by a logger.(¨ùÂ‡8âÔ¶Øö1J$82f36632-bda2-4751-a2fc-a74e1d404b41
 v
-java:S1128"TRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoController'.(ÒË…Õùÿÿÿÿ8‚îàĞö1
-
-java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8Ï·µ²ó1J$9c515d43-722b-4e1c-930d-7e73d856632c
-
-java:S1128"ERemove this unused import 'co.edu.uniquindio.poo.Espacio.EspacioDao'.(’¶°äıÿÿÿÿ8Ñ·µ²ó1J$d7a55932-64a4-4571-9b2b-613729f2dd85
+java:S1128"TRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoController'.(ÒË…Õùÿÿÿÿ8Í÷õØö1
+g
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8Í÷õØö1
+g
+java:S1128"ERemove this unused import 'co.edu.uniquindio.poo.Espacio.EspacioDao'.(’¶°äıÿÿÿÿ8Í÷õØö1
 j
-java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8Ï¨±²ó1J$8c1b39e6-c3b4-4c51-b404-b0c3c7872185
+java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8Ÿ§éÖö1J$ad082150-f486-4aca-9434-12989aa166f9

@@ -4,13 +4,17 @@ import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 import co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
+import java.time.LocalDateTime;
 import java.util.logging.Logger;
+
+import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.formatoPresentacion;
 
 public class EspacioDao {
     private String id;
     private Boolean espacioHabilitado;
     private Boolean ocupado;
     private VehiculoDao vehiculo;
+    private LocalDateTime fechaHoraEntrada;
 
     private static final Logger LOG = Logger.getLogger(EspacioDao.class.getName());
 
@@ -23,11 +27,12 @@ public class EspacioDao {
 
 
     // Constructor con todos los parámetros
-    public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado, VehiculoDao vehiculo) {
+    public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado, VehiculoDao vehiculo, LocalDateTime fechaHoraEntrada) {
         this.id = id;
         this.espacioHabilitado = espacioHabilitado;
         this.ocupado = ocupado;
         this.vehiculo = vehiculo;
+        this.fechaHoraEntrada = fechaHoraEntrada;
     }
 
 
@@ -64,6 +69,12 @@ public class EspacioDao {
         this.vehiculo = vehiculo;
     }
 
+    public LocalDateTime getFechaHoraEntrada() {return fechaHoraEntrada;}
+
+    public void setFechaHoraEntrada(LocalDateTime fechaHoraEntrada) {
+        this.fechaHoraEntrada = fechaHoraEntrada;
+    }
+
 
     // Método para crear un nuevo espacio
 
@@ -77,6 +88,7 @@ public class EspacioDao {
                     "id='" + id + '\'' +
                     ", espacioHabilitado=" + espacioHabilitado +
                     ", ocupado=" + ocupado +
+                    ", fechaHoraEntrada= " + fechaHoraEntrada.format(formatoPresentacion) +
                     ", " + vehiculo.toString() +
                     "} | ";
         } else {

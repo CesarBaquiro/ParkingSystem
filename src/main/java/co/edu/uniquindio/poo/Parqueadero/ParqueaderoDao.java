@@ -2,12 +2,13 @@ package co.edu.uniquindio.poo.Parqueadero;
 
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
 
-import java.util.logging.Logger;
+import java.time.LocalDateTime;
 
 /**
  * Clase para el parqueadero, contiene sus atributos
  * y metodos
  * */
+
 public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
@@ -19,9 +20,11 @@ public class ParqueaderoDao {
     private Boolean espacioHabilitado;
     private Boolean espacioProhibido;
     private Boolean estado;
+    public static double costoHoraCarro = 3000;
+    public static double costoHoraMoto = 3000;
 
     //Implementacion del logger
-    private static final Logger LOG = Logger.getLogger(ParqueaderoDao.class.getName());
+
 
     public ParqueaderoDao() {
         matrizEspacios = new EspacioDao[FILAS][COLUMNAS];
@@ -98,6 +101,7 @@ public class ParqueaderoDao {
     public void setEstado(Boolean estado) {
         this.estado = estado;
     }
+
 
     public static EspacioDao[][] getEspacios() {
         return espacios;
