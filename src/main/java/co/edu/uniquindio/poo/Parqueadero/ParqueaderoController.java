@@ -175,8 +175,31 @@ public class ParqueaderoController {
         } else {
             LOG.warning("El espacio ingresado esta vacio");
         }
+    }
 
+    public static void actualizarHabilitado(){
+        System.out.println("---Ingrese la posicion donde quiere el registro---");
+        System.out.println("Ingrese la fila: ");
+        selectFila = scanner.nextInt();
+        System.out.println("Ingrese la columna: ");
+        selectColumna = scanner.nextInt();
+        scanner.nextLine();
 
+        if (selectFila >= 0 && selectFila < FILAS && selectColumna >= 0 && selectColumna < COLUMNAS) {
+            if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado() == false) {
+                if(ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado() == true){
+                    espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), false, false);
+                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + "se ha deshabilitado");
+                }else{
+                    espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), true, false);
+                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + "se ha habilitado");
+                }
+            } else {
+                LOG.warning("El espacio esta ocupado");
+            }
+        } else {
+            LOG.warning("La posición especificada está fuera de los límites de la matriz.");
+        }
     }
 
 }

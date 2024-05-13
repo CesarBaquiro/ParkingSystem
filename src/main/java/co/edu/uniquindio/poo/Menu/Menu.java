@@ -35,7 +35,8 @@ public class Menu {
             System.out.println("3. Registrar salida");
             System.out.println("4. Informes");
             System.out.println("5. Configuracion");
-            System.out.println("6. Salir");
+            System.out.println("6. Pruebas");
+            System.out.println("7. Salir");
             System.out.print("Seleccione una opción: ");
 
             opcion = scanner.nextInt();
@@ -54,7 +55,6 @@ public class Menu {
                     Integer seleccionarVehiculo = scanner.nextInt();
                     registrar(seleccionarVehiculo);
                     //El scanner esta en el metodo
-
                     System.out.println("----------------Se registro--------------");
                     break;
                 case 3:
@@ -62,22 +62,43 @@ public class Menu {
                     registrarSalida();
                     System.out.println("----------------Se registro la salida--------------");
                     break;
-
                 case 4:
                     System.out.println(listadoInformes);
-
                 case 5:
+
+                    System.out.println("1. Nueva configuracion de parqueadero");
+                    System.out.println("2. Habilitar o deshabilitar espacio");
+                    Integer opcionConfiguracion = scanner.nextInt();
+                    if(opcionConfiguracion==1){
+                        System.out.println("Ingrese el numero de filas: ");
+                        FILAS = scanner.nextInt();
+                        System.out.println("Ingrese el numero de columnas: ");
+                        COLUMNAS = scanner.nextInt();
+                        scanner.nextLine();
+
+                        System.out.println("--------ADVERTENCIA--------");
+                        System.out.println("Esta seguro de realizar este cambio? Todos los espacios seran reiniciados ");
+                        System.out.println("1. Guardar nueva configuracion");
+                        System.out.println("2. Cancelar");
+                        Integer confirmacion = scanner.nextInt();
+                        if(confirmacion == 1){
+                            configuracionDefecto(FILAS, COLUMNAS);
+                        }
+                    }else{
+                        actualizarHabilitado();
+                    }
+
+                    break;
+                case 6:
                     espacios[0][0] = new EspacioDao("PRUEBA1", true, true, crearCarro("Cesar", "GGG555", "2015"), tiempoReal);
                     espacios[1][1] = new EspacioDao("PRUEBA2", true, true, crearMoto("Argemiro", "ZZZ111", "2000", 100, TipoMoto.CLASICA), tiempoReal);
                     espacios[2][2] = new EspacioDao("PRUEBA3", true, true, crearMoto("Damian", "QQQ333", "2030", 200, TipoMoto.HIBRIDA), tiempoReal);
                     break;
-
                 default:
                     System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
-
             }
 
-        } while (opcion != 6);
+        } while (opcion != 7);
         scanner.close();
 
     }

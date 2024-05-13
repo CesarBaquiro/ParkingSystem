@@ -18,7 +18,7 @@ public class App {
 
         LOG.info("Hello World!");
 
-        configuracionDefecto();
+        configuracionDefecto(FILAS, COLUMNAS);
         seleccionarMenu();
 
     }

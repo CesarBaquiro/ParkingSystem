@@ -13,8 +13,8 @@ import java.time.LocalDateTime;
 public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
-    public static int FILAS = 5;
-    public static int COLUMNAS = 5;
+    public static int FILAS = 3;
+    public static int COLUMNAS = 3;
     private Boolean espacioHabilitado;
     private Boolean espacioProhibido;
     private Boolean estado;
@@ -25,24 +25,20 @@ public class ParqueaderoDao {
 
     //Implementacion del logger
 
-
-    public ParqueaderoDao() {
-        matrizEspacios = new EspacioDao[FILAS][COLUMNAS];
-    }
-
     //Matriz que define los espacios del parqueadero
     public static EspacioDao[][] espacios = new EspacioDao[0][0];
 
 
     //Asignacion de espacio 5x5 por defecto
-    public static EspacioDao[][] configuracionDefecto(){
+    public static EspacioDao[][] configuracionDefecto(Integer FILAS, Integer COLUMNAS){
 
         int letraCodigoAscii = 65;
-        espacios = new EspacioDao[3][3];
+        espacios = new EspacioDao[FILAS][COLUMNAS];
         int numId = 0;
 
         //Rellenar la matriz
         for(int i=0; i< espacios.length; i++){
+                numId = 0;
                 char caracter = (char) letraCodigoAscii;
                 letraCodigoAscii = letraCodigoAscii+1;
             for(int j=0; j< espacios.length; j++) {
