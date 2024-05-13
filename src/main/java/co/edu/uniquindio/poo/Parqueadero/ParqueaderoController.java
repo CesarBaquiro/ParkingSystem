@@ -141,20 +141,23 @@ public class ParqueaderoController {
             if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() != null) {
                 if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() == TipoMoto.CLASICA) {
                     valorPagar = tarifaMotoClasica;
-                    System.out.println("ES CLASICA");
                 } else {
                     valorPagar = tarifaMotoHibrida;
-                    System.out.println("ES HIBRIDA");
                 }
             }else{
                 valorPagar = tarifaCarro;
-                System.out.println("ES UN CARRO");
             }
 
 
+            //Si los minutos no exceden 15 minutos, no se debera realizar el pago de la hora
+            if(minutos>15){
+                System.out.println("--------------El valor a pagar es " + (horas+1) * valorPagar );
+            }else{
+                System.out.println("--------------El valor a pagar es " + horas * valorPagar );
+            }
 
-            System.out.println("El valor a pagar es " + valorPagar);
 
+            //Se reinicia el espacio a su estado vacio
             espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), false);
 
             System.out.println(fechaHoraSalida.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId());
