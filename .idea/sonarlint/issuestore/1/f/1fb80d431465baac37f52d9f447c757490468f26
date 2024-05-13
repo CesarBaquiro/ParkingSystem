@@ -1,36 +1,36 @@
 
 ”
-java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(©ŸØÄ8¾Æ˜Ôö1J$0993b5f8-235e-4692-bd84-2521bfe7b917
+java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(©ŸØÄ8¾Æ˜Ôö1J$32ea2d36-3499-47cc-850f-c4139dac22b8
 œ
-java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(Üß˜¶øÿÿÿÿ8¾Æ˜Ôö1J$969e7757-b5a2-4e12-8a81-9895cc612d99
+java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(Üß˜¶øÿÿÿÿ8¾Æ˜Ôö1J$8748cdca-4bb9-4e21-9002-6d6d8f215465
 
-java:S1104"ZMake costoHoraCarro a static final constant or non-public and provide accessors if needed.(»”¨›8¾Æ˜Ôö1J$4fe4f8f6-6e51-42b3-b93b-ee99a3a13e89
+java:S1104"ZMake costoHoraCarro a static final constant or non-public and provide accessors if needed.(»”¨›8¾Æ˜Ôö1J$f2874a17-554b-440e-a9c3-4911ee9b665b
 ¡
-java:S1104"YMake costoHoraMoto a static final constant or non-public and provide accessors if needed.(Š»üıÿÿÿÿ8«ˆ™Ôö1J$f7a7c1a5-6aff-4b8f-88ab-a14830cbbb2f
+java:S1104"YMake costoHoraMoto a static final constant or non-public and provide accessors if needed.(Š»üıÿÿÿÿ8«ˆ™Ôö1J$63ad48d7-43e6-4cb3-8574-35eba18cbbc3
 œ
-java:S1104""TMake espacios a static final constant or non-public and provide accessors if needed.(ì·ô…øÿÿÿÿ8¾Æ˜Ôö1J$5717dd2d-3888-4571-a45c-cd178be0d22d
+java:S1104""TMake espacios a static final constant or non-public and provide accessors if needed.(ì·ô…øÿÿÿÿ8¾Æ˜Ôö1J$97289a27-7707-4c53-be23-ca7302c7f0ea
 n
-java:S1444"+Make this "public static FILAS" field final(©ŸØÄ8¿Æ˜Ôö1J$02db275c-cefb-4ddc-8112-7c2906c5ab92
+java:S1444"+Make this "public static FILAS" field final(©ŸØÄ8¿Æ˜Ôö1J$f7d956ab-168d-4890-b9e2-4f5b587d6802
 v
-java:S1444".Make this "public static COLUMNAS" field final(Üß˜¶øÿÿÿÿ8¿Æ˜Ôö1J$d7d2a859-1c7e-4f29-a6a5-37099f0e7015
+java:S1444".Make this "public static COLUMNAS" field final(Üß˜¶øÿÿÿÿ8¿Æ˜Ôö1J$a0f7c947-10e9-4264-9301-4d3abba96586
 w
-java:S1444"4Make this "public static costoHoraCarro" field final(»”¨›8¿Æ˜Ôö1J$4d7cd484-e0c1-40f4-a554-5fe5aa69b929
+java:S1444"4Make this "public static costoHoraCarro" field final(»”¨›8¿Æ˜Ôö1J$4c3ea862-69a7-4691-8c16-0f4fe35d4907
 {
-java:S1444"3Make this "public static costoHoraMoto" field final(Š»üıÿÿÿÿ8¬ˆ™Ôö1J$8e949ffd-dca1-4e4e-a451-9c1fedfeb328
+java:S1444"3Make this "public static costoHoraMoto" field final(Š»üıÿÿÿÿ8¬ˆ™Ôö1J$19e58aa5-40b2-41ee-8292-df3e13fc0a1a
 v
-java:S1444"".Make this "public static espacios" field final(ì·ô…øÿÿÿÿ8¿Æ˜Ôö1J$7606767a-cfd8-44c9-9501-2fd78b1decfe
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8ÂÆ˜Ôö1J$40d61a07-b027-4a56-a030-c231af047f89
+java:S1444"".Make this "public static espacios" field final(ì·ô…øÿÿÿÿ8¿Æ˜Ôö1J$6e6c2c0b-ca9c-44a4-a490-2c14acc976ed
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8ÂÆ˜Ôö1J$e64ce2fc-cff2-47cc-b2ed-a8e1fac82148
 “
-java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ŸØÄ8ÌÆ˜Ôö1J$605e3b50-5f5d-423e-91aa-f5c6db582486
+java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ŸØÄ8ÌÆ˜Ôö1J$9b05025e-cf6d-4164-928d-048b72d88de9
 ›
-java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üß˜¶øÿÿÿÿ8ÌÆ˜Ôö1J$4a90ac52-de89-4759-95b9-440d91faad75
+java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üß˜¶øÿÿÿÿ8ÌÆ˜Ôö1J$3e0646bd-0442-4379-ae8a-8076f60284bf
 e
-java:S2386""Make this member "protected".(ì·ô…øÿÿÿÿ8ÍÆ˜Ôö1J$48a94d42-31a9-49ba-873a-074d494c0730
-r	java:S106A"+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8ÔÆ˜Ôö1J$aedce08b-47b1-4493-9013-0ea3cc7452d0
-r	java:S106C"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÕÆ˜Ôö1J$1619b2c3-f9e2-445c-937f-4b195675a0d5
+java:S2386""Make this member "protected".(ì·ô…øÿÿÿÿ8ÍÆ˜Ôö1J$959aac52-dc22-4411-a527-d2e34a64cddf
+r	java:S106A"+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8ÔÆ˜Ôö1J$3f6bd0fd-9da8-4211-a17a-9ce582d0a3a2
+r	java:S106C"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ÕÆ˜Ôö1J$ad7f2338-a4a7-47ae-9d54-6fe8219b6eda
 Š
-java:S1128"GRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.VehiculoDao'.(ñöøŒ8±™‡÷1J$2ccf8ab1-3a71-4da5-a98f-e802e9f0e894
+java:S1128"GRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.VehiculoDao'.(ñöøŒ8±™‡÷1J$4036fc21-6835-4f49-8d18-12a1f105e664
 |
-java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8¤·†÷1J$5f10cd50-f9f7-4089-85ce-7da25d5a2e99
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8¤·†÷1J$f8c1edb8-ab69-4adb-b7d6-93dd01bf6c89
 z
-java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8ÙÆ˜Ôö1J$07a9c934-acdd-46b7-9dad-82ef2274ed6e
+java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8ÙÆ˜Ôö1J$e68d1a16-0e38-4fe9-980e-fad2fc1a17c0

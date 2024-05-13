@@ -49,6 +49,11 @@ public class ParqueaderoController {
     public static long horas;
     public static long minutos;
 
+    public static double tarifaCarro = 3000;
+    public static double tarifaMotoClasica = 2000;
+    public static double tarifaMotoHibrida = 2500;
+
+
 
     public static void registrar(Integer seleccionarVehiculo) {
         System.out.println("---Ingrese la posicion donde quiere el registro---");
@@ -116,7 +121,7 @@ public class ParqueaderoController {
 
 
     public static void registrarSalida() {
-
+        Double valorPagar;
 
         System.out.println("Ingrese la fila: ");
         selectFila = scanner.nextInt();
@@ -135,14 +140,20 @@ public class ParqueaderoController {
             //Definir el valor total a pagar
             if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() != null) {
                 if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() == TipoMoto.CLASICA) {
+                    valorPagar = tarifaMotoClasica;
                     System.out.println("ES CLASICA");
                 } else {
+                    valorPagar = tarifaMotoHibrida;
                     System.out.println("ES HIBRIDA");
                 }
+            }else{
+                valorPagar = tarifaCarro;
+                System.out.println("ES UN CARRO");
             }
 
 
-            System.out.println("El valor a pagar es");
+
+            System.out.println("El valor a pagar es " + valorPagar);
 
             espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), false);
 

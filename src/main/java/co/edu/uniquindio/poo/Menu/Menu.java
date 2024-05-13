@@ -43,12 +43,9 @@ public class Menu {
                     System.out.println("--------Matriz de parqueadero--------");
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
 
-                    espacios[0][0] = new EspacioDao("A1", true, false, crearCarro("Cesar", "GGG555", "2000"), tiempoReal);
-                    espacios[1][0] = new EspacioDao("A1", true, false, crearMoto("Cesar", "GGG555", "2000", 200, TipoMoto.HIBRIDA), tiempoReal);
-
                     verMatrizConsola();
                     System.out.println("La hora actual es: "+ tiempoRealFormateadoRegistro);
-                    System.out.println(ParqueaderoDao.getEspacio(1, 0).getVehiculo().getTipoMoto());
+
 
                     break;
                 case 2:
@@ -65,6 +62,12 @@ public class Menu {
                     System.out.println("--------Ingrese que espacio va a registrar la salida:-------");
                     registrarSalida();
                     System.out.println("----------------Se registro la salida--------------");
+                    break;
+
+                case 4:
+                    espacios[0][0] = new EspacioDao("PRUEBA1", true, true, crearCarro("Cesar", "GGG555", "2015"), tiempoReal);
+                    espacios[1][1] = new EspacioDao("PRUEBA2", true, true, crearMoto("Argemiro", "ZZZ111", "2000", 100, TipoMoto.CLASICA), tiempoReal);
+                    espacios[2][2] = new EspacioDao("PRUEBA3", true, true, crearMoto("Damian", "QQQ333", "2030", 200, TipoMoto.HIBRIDA), tiempoReal);
                     break;
 
                 default:
