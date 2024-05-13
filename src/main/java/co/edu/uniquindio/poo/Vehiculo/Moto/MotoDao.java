@@ -1,6 +1,5 @@
 package co.edu.uniquindio.poo.Vehiculo.Moto;
 
-import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 /**
@@ -28,6 +27,7 @@ public class MotoDao extends VehiculoDao {
     //public static MotoDao moto1 = new MotoDao("Roberto", "BWL123", "2000", 100,  TipoMoto.CLASICA );
 
 
+    @Override
     public Integer getVelocidadMaxima() {
         return velocidadMaxima;
     }
@@ -36,6 +36,7 @@ public class MotoDao extends VehiculoDao {
         this.velocidadMaxima = velocidadMaxima;
     }
 
+    @Override
     public TipoMoto getTipoMoto() {
         return tipoMoto;
     }
@@ -44,6 +45,7 @@ public class MotoDao extends VehiculoDao {
         this.tipoMoto = tipoMoto;
     }
 
+    @Override
     public String getNombre() {
         return nombre;
     }
@@ -52,6 +54,7 @@ public class MotoDao extends VehiculoDao {
         this.nombre = nombre;
     }
 
+    @Override
     public String getPlaca() {
         return placa;
     }
@@ -60,12 +63,18 @@ public class MotoDao extends VehiculoDao {
         this.placa = placa;
     }
 
+    @Override
     public String getModelo() {
         return modelo;
     }
 
     public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    @Override
+    public VehiculoDao getVehiculo() {
+        return new MotoDao(getNombre(), getPlaca(), getModelo(), getVelocidadMaxima(), getTipoMoto());
     }
 
     // Método toString para representar el objeto como cadena de caracteres
@@ -79,4 +88,6 @@ public class MotoDao extends VehiculoDao {
                 ", velocidad maxima="+velocidadMaxima+
                 "}";
     }
+
+
 }

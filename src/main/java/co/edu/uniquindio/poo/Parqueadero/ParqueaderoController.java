@@ -1,4 +1,5 @@
 package co.edu.uniquindio.poo.Parqueadero;
+
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
 import co.edu.uniquindio.poo.Vehiculo.Moto.TipoMoto;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
@@ -19,9 +20,9 @@ import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 public class ParqueaderoController {
 
 
-    private static final Logger LOG = Logger.getLogger(ParqueaderoController.class.getName());;
+    private static final Logger LOG = Logger.getLogger(ParqueaderoController.class.getName());
+    ;
     private static final Scanner scanner = new Scanner(System.in);
-
 
 
     // Método para crear y guardar un nuevo espacio en la matriz
@@ -49,10 +50,7 @@ public class ParqueaderoController {
     public static long minutos;
 
 
-
-
-
-    public static void registrar(Integer seleccionarVehiculo){
+    public static void registrar(Integer seleccionarVehiculo) {
         System.out.println("---Ingrese la posicion donde quiere el registro---");
         System.out.println("Ingrese la fila: ");
         selectFila = scanner.nextInt();
@@ -61,7 +59,7 @@ public class ParqueaderoController {
         selectColumna = scanner.nextInt();
         scanner.nextLine();
 
-        if(seleccionarVehiculo != null){
+        if (seleccionarVehiculo != null) {
             System.out.println("---Ingrese los datos del vehiculo---");
             System.out.println("Ingrese el nombre del propietario: ");
             String nombre = scanner.nextLine();
@@ -76,9 +74,9 @@ public class ParqueaderoController {
             //Si es 1 se crea un carro
             if (seleccionarVehiculo == 1) {
 
-                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getOcupado(), crearCarro(nombre, placa, modelo), fechaHoraEntrada);
+                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearCarro(nombre, placa, modelo), fechaHoraEntrada);
 
-            }else if(seleccionarVehiculo == 2){
+            } else if (seleccionarVehiculo == 2) {
                 System.out.println("Ingrese la velocidad maxima que alcanza la moto: ");
                 Integer velocidadMaxima = scanner.nextInt();
                 scanner.nextLine();
@@ -91,28 +89,24 @@ public class ParqueaderoController {
 
                 TipoMoto tipoMoto = TipoMoto.CLASICA;
 
-                if(seleccionTipoMoto == 1){
+                if (seleccionTipoMoto == 1) {
                     tipoMoto = TipoMoto.CLASICA;
-                }else{
+                } else {
                     tipoMoto = TipoMoto.HIBRIDA;
                 }
 
-                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila,selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto), fechaHoraEntrada);
+                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto), fechaHoraEntrada);
             }
         }
     }
 
     public static void actualizarEspacio(int fila, int columna, String id, boolean espacioHabilitado, boolean ocupado, VehiculoDao vehiculo, LocalDateTime fechaHoraEntrada) {
         if (fila >= 0 && fila < FILAS && columna >= 0 && columna < COLUMNAS) {
-            if(espacioHabilitado == true && ocupado == false){
+            if (espacioHabilitado == true && ocupado == false) {
                 fechaHoraEntrada = tiempoReal;
                 espacios[fila][columna] = new EspacioDao(id, espacioHabilitado, true, vehiculo, fechaHoraEntrada);
                 System.out.println(fechaHoraEntrada.format(formatoPresentacion) + "| Ingreso un vehiculo al espacio: " + id);
-
-
-
-
-            }else{
+            } else {
                 LOG.warning("El espacio esta deshabilitado o ocupado");
             }
         } else {
@@ -124,31 +118,41 @@ public class ParqueaderoController {
     public static void registrarSalida() {
 
 
-
         System.out.println("Ingrese la fila: ");
         selectFila = scanner.nextInt();
         System.out.println("Ingrese la columna: ");
         selectColumna = scanner.nextInt();
         scanner.nextLine();
 
-        if (ParqueaderoDao.getEspacio(selectFila,selectColumna).getFechaHoraEntrada() != null){
+        if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getFechaHoraEntrada() != null) {
 
             fechaHoraSalida = tiempoReal;
-            System.out.println(ParqueaderoDao.getEspacio(selectFila,selectColumna).getFechaHoraEntrada());
-            System.out.println(fechaHoraSalida);
 
-
-            duracion = Duration.between(ParqueaderoDao.getEspacio(selectFila,selectColumna).getFechaHoraEntrada().minusMinutes(35), fechaHoraSalida);
+            duracion = Duration.between(ParqueaderoDao.getEspacio(selectFila, selectColumna).getFechaHoraEntrada(), fechaHoraSalida);
             horas = duracion.toHours();
             minutos = duracion.toMinutes() % 60;
 
-            espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila,selectColumna).getId(),ParqueaderoDao.getEspacio(selectFila,selectColumna).getEspacioHabilitado(), false);
+            //Definir el valor total a pagar
+            if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() != null) {
+                if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo().getTipoMoto() == TipoMoto.CLASICA) {
+                    System.out.println("ES CLASICA");
+                } else {
+                    System.out.println("ES HIBRIDA");
+                }
+            }
 
-            System.out.println(fechaHoraEntrada.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId());
-            System.out.println("El espacio "+ ParqueaderoDao.getEspacio(selectFila,selectColumna).getId() +" se ha liberado");
+
+            System.out.println("El valor a pagar es");
+
+            espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), false);
+
+            System.out.println(fechaHoraSalida.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId());
+            System.out.println("El espacio " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + " se ha liberado");
 
             System.out.println("La duracion del vehiculo fue de " + horas + " horas y " + minutos + " minutos.");
-        }else{
+
+
+        } else {
             LOG.warning("El espacio ingresado esta vacio");
         }
 

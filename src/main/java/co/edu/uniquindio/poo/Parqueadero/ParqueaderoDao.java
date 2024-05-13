@@ -1,6 +1,7 @@
 package co.edu.uniquindio.poo.Parqueadero;
 
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
+import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 import java.time.LocalDateTime;
 
@@ -13,13 +14,12 @@ public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
     public static int FILAS = 5;
-
-
-
     public static int COLUMNAS = 5;
     private Boolean espacioHabilitado;
     private Boolean espacioProhibido;
     private Boolean estado;
+
+
     public static double costoHoraCarro = 3000;
     public static double costoHoraMoto = 3000;
 
@@ -114,6 +114,8 @@ public class ParqueaderoDao {
     public static EspacioDao getEspacio(Integer fila, Integer columna) {
         return espacios[fila][columna];
     }
+
+
 
 
 }

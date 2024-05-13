@@ -1,8 +1,11 @@
 package co.edu.uniquindio.poo.Menu;
 
 import co.edu.uniquindio.poo.Parqueadero.ParqueaderoController;
+import co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao;
 import co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao;
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
+import co.edu.uniquindio.poo.Vehiculo.Moto.TipoMoto;
+import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 import java.util.Scanner;
 import java.util.logging.Logger;
@@ -10,6 +13,8 @@ import java.util.logging.Logger;
 
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.*;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
+import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.crearCarro;
+import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 
 
 public class Menu {
@@ -37,10 +42,13 @@ public class Menu {
                 case 1:
                     System.out.println("--------Matriz de parqueadero--------");
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
+
+                    espacios[0][0] = new EspacioDao("A1", true, false, crearCarro("Cesar", "GGG555", "2000"), tiempoReal);
+                    espacios[1][0] = new EspacioDao("A1", true, false, crearMoto("Cesar", "GGG555", "2000", 200, TipoMoto.HIBRIDA), tiempoReal);
+
                     verMatrizConsola();
                     System.out.println("La hora actual es: "+ tiempoRealFormateadoRegistro);
-                    //System.out.println(duracion);
-                    //System.out.println("La diferencia es de " + horas + " horas y " + minutos + " minutos.");
+                    System.out.println(ParqueaderoDao.getEspacio(1, 0).getVehiculo().getTipoMoto());
 
                     break;
                 case 2:

@@ -8,6 +8,7 @@ import java.time.LocalDateTime;
 import java.util.logging.Logger;
 
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.formatoPresentacion;
+import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 
 public class EspacioDao {
     private String id;
@@ -65,10 +66,6 @@ public class EspacioDao {
         return vehiculo;
     }
 
-    public void setvehiculo(VehiculoDao vehiculo) {
-        this.vehiculo = vehiculo;
-    }
-
     public LocalDateTime getFechaHoraEntrada() {return fechaHoraEntrada;}
 
     public void setFechaHoraEntrada(LocalDateTime fechaHoraEntrada) {
@@ -99,4 +96,6 @@ public class EspacioDao {
                     "} | ";
         }
     }
+
+
 }

@@ -24,6 +24,7 @@ public class CarroDao extends VehiculoDao {
         this.nombre = nombre;
     }
 
+    @Override
     public String getPlaca() {
         return placa;
     }
@@ -32,6 +33,7 @@ public class CarroDao extends VehiculoDao {
         this.placa = placa;
     }
 
+    @Override
     public String getModelo() {
         return modelo;
     }
@@ -40,7 +42,10 @@ public class CarroDao extends VehiculoDao {
         this.modelo = modelo;
     }
 
-
+    @Override
+    public VehiculoDao getVehiculo(){
+        return new CarroDao(getNombre(), getPlaca(), getModelo());
+    }
 
     @Override
     public String toString() {
