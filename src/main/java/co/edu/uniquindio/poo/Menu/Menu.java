@@ -11,6 +11,7 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 
+import static co.edu.uniquindio.poo.Informe.Informe.listadoInformes;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.*;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
 import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.crearCarro;
@@ -32,8 +33,9 @@ public class Menu {
             System.out.println("1. Parqueadero");
             System.out.println("2. Registrar ingreso");
             System.out.println("3. Registrar salida");
-            System.out.println("4. Configuracion");
-            System.out.println("5. Salir");
+            System.out.println("4. Informes");
+            System.out.println("5. Configuracion");
+            System.out.println("6. Salir");
             System.out.print("Seleccione una opción: ");
 
             opcion = scanner.nextInt();
@@ -42,11 +44,8 @@ public class Menu {
                 case 1:
                     System.out.println("--------Matriz de parqueadero--------");
                     //System.out.println(Arrays.stream(configuracionDefecto()).count());
-
                     verMatrizConsola();
                     System.out.println("La hora actual es: "+ tiempoRealFormateadoRegistro);
-
-
                     break;
                 case 2:
                     System.out.println("--------Seleccione que desea ingrear:-------");
@@ -65,6 +64,9 @@ public class Menu {
                     break;
 
                 case 4:
+                    System.out.println(listadoInformes);
+
+                case 5:
                     espacios[0][0] = new EspacioDao("PRUEBA1", true, true, crearCarro("Cesar", "GGG555", "2015"), tiempoReal);
                     espacios[1][1] = new EspacioDao("PRUEBA2", true, true, crearMoto("Argemiro", "ZZZ111", "2000", 100, TipoMoto.CLASICA), tiempoReal);
                     espacios[2][2] = new EspacioDao("PRUEBA3", true, true, crearMoto("Damian", "QQQ333", "2030", 200, TipoMoto.HIBRIDA), tiempoReal);
@@ -75,7 +77,7 @@ public class Menu {
 
             }
 
-        } while (opcion != 5);
+        } while (opcion != 6);
         scanner.close();
 
     }

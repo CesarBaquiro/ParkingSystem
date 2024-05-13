@@ -1,82 +1,82 @@
 
 ™
-java:S1104""VMake tiempoReal a static final constant or non-public and provide accessors if needed.(¶›Â™8ùºŒŠ÷1J$51c54aa8-66ca-4303-a171-e74a7c4ac5fc
+java:S1104#"VMake tiempoReal a static final constant or non-public and provide accessors if needed.(¶›Â™8±ø’‹÷1J$9931de06-3eec-4355-af35-c6a7d22b28b4
 §
-java:S1104&"_Make formatoPresentacion a static final constant or non-public and provide accessors if needed.(„å¥¤ÿÿÿÿÿ8ùºŒŠ÷1J$ed6ef6c4-813d-4227-8001-ff857d8a69a6
+java:S1104'"_Make formatoPresentacion a static final constant or non-public and provide accessors if needed.(„å¥¤ÿÿÿÿÿ8±ø’‹÷1J$20dedc04-5ffe-4f9f-bdf9-00f3df1af507
 «
-java:S1104'"hMake tiempoRealFormateadoRegistro a static final constant or non-public and provide accessors if needed.(¾‡ƒÁ8ùºŒŠ÷1J$862da633-9800-4c1f-a81b-5c2160ca0b25
+java:S1104("hMake tiempoRealFormateadoRegistro a static final constant or non-public and provide accessors if needed.(¾‡ƒÁ8±ø’‹÷1J$53472245-2456-4816-86d4-0a20cc7eaaec
 
-java:S1104*"\Make fechaHoraEntrada a static final constant or non-public and provide accessors if needed.(ß˜É48ùºŒŠ÷1J$fe724441-2ecf-4885-9198-6371a3348477
+java:S1104+"\Make fechaHoraEntrada a static final constant or non-public and provide accessors if needed.(ß˜É48±ø’‹÷1J$4f8d0b8d-94c7-4b29-8589-824c29e74a28
 
-java:S1104+"[Make fechaHoraSalida a static final constant or non-public and provide accessors if needed.(•Í‘ğ8ùºŒŠ÷1J$18c1a533-5e7e-4745-a09c-be483c1ac5ad
+java:S1104,"[Make fechaHoraSalida a static final constant or non-public and provide accessors if needed.(•Í‘ğ8±ø’‹÷1J$d39236f0-d07c-48d7-9ebd-5f657cb45b1d
 —
-java:S1104/"TMake duracion a static final constant or non-public and provide accessors if needed.(ıåğ8ùºŒŠ÷1J$ad36e8f1-6f20-42c7-9f9b-856b237d1e11
+java:S11040"TMake duracion a static final constant or non-public and provide accessors if needed.(ıåğ8±ø’‹÷1J$75388edb-56f9-4152-a92c-5529993270b4
 ”
-java:S11041"QMake horas a static final constant or non-public and provide accessors if needed.(š€Ùô8ùºŒŠ÷1J$5e7046cb-8697-43a3-92c9-26ad268dc197
+java:S11042"QMake horas a static final constant or non-public and provide accessors if needed.(š€Ùô8±ø’‹÷1J$28b85a44-89b6-4730-a85c-62a82b6565fb
 ›
-java:S11042"SMake minutos a static final constant or non-public and provide accessors if needed.(ÒŒØäüÿÿÿÿ8ùºŒŠ÷1J$9ea2497d-4786-4f74-9eb7-8058b2fa2a4a
+java:S11043"SMake minutos a static final constant or non-public and provide accessors if needed.(ÒŒØäüÿÿÿÿ8±ø’‹÷1J$3eb3f185-647f-4f03-90f9-89f8c12c2fca
 Ÿ
-java:S11044"WMake tarifaCarro a static final constant or non-public and provide accessors if needed.(úùœÓøÿÿÿÿ8ùºŒŠ÷1J$cee841c3-4ba6-49b0-94a2-354a033cb30f
+java:S11045"WMake tarifaCarro a static final constant or non-public and provide accessors if needed.(úùœÓøÿÿÿÿ8±ø’‹÷1J$df4df6fe-fe66-4191-9a4b-ebb0b9d6d0a5
 ¥
-java:S11045"]Make tarifaMotoClasica a static final constant or non-public and provide accessors if needed.(Ùéæâøÿÿÿÿ8ùºŒŠ÷1J$865bb871-336e-401b-b858-b2af0e7f6653
+java:S11046"]Make tarifaMotoClasica a static final constant or non-public and provide accessors if needed.(Ùéæâøÿÿÿÿ8±ø’‹÷1J$5701a5cd-5e17-4989-9ea8-b3b078d256db
 ¥
-java:S11046"]Make tarifaMotoHibrida a static final constant or non-public and provide accessors if needed.(Ë£–íıÿÿÿÿ8úºŒŠ÷1J$b77ab141-2cca-4065-8b44-54d408e5c37d
+java:S11047"]Make tarifaMotoHibrida a static final constant or non-public and provide accessors if needed.(Ë£–íıÿÿÿÿ8±ø’‹÷1J$7b20a600-066b-4b23-bb55-6b9cec4827e3
 s
-java:S1444""0Make this "public static tiempoReal" field final(¶›Â™8úºŒŠ÷1J$05887b62-db34-44d9-8c6d-41d71ebcd0a0
+java:S1444#"0Make this "public static tiempoReal" field final(¶›Â™8²ø’‹÷1J$b967d690-2839-4415-b7b1-6d8117e57936
 
-java:S1444&"9Make this "public static formatoPresentacion" field final(„å¥¤ÿÿÿÿÿ8úºŒŠ÷1J$cec06a47-69b4-4821-9b6d-8489530a2932
+java:S1444'"9Make this "public static formatoPresentacion" field final(„å¥¤ÿÿÿÿÿ8²ø’‹÷1J$33d33c4b-b2cc-4dc1-85c3-0dbf36c14d49
 …
-java:S1444'"BMake this "public static tiempoRealFormateadoRegistro" field final(¾‡ƒÁ8úºŒŠ÷1J$00371602-b832-4162-bbc2-20b27d8cf83e
+java:S1444("BMake this "public static tiempoRealFormateadoRegistro" field final(¾‡ƒÁ8²ø’‹÷1J$64f6e659-48ef-46cb-91f0-da543b341210
 x
-java:S1444*"6Make this "public static fechaHoraEntrada" field final(ß˜É48úºŒŠ÷1J$c065a4a0-973c-4b7a-9bd8-af7c961ed9de
+java:S1444+"6Make this "public static fechaHoraEntrada" field final(ß˜É48²ø’‹÷1J$8a7308d9-6666-425e-8f58-ccd97775a8a3
 x
-java:S1444+"5Make this "public static fechaHoraSalida" field final(•Í‘ğ8úºŒŠ÷1J$535ef8f1-8c03-40d6-92a2-fbdfe94c794d
+java:S1444,"5Make this "public static fechaHoraSalida" field final(•Í‘ğ8²ø’‹÷1J$ff55484b-d489-4295-94a6-aae33f7f4277
 q
-java:S1444/".Make this "public static duracion" field final(ıåğ8úºŒŠ÷1J$e48dc2df-eb3e-4a15-8429-9c87a3f40ff0
+java:S14440".Make this "public static duracion" field final(ıåğ8²ø’‹÷1J$c9425c50-79fb-47c5-bc77-d3ee152cc565
 n
-java:S14441"+Make this "public static horas" field final(š€Ùô8úºŒŠ÷1J$0594ee6b-9c33-4642-9796-1e14e9a1d6bd
+java:S14442"+Make this "public static horas" field final(š€Ùô8²ø’‹÷1J$bad8120f-3d5e-4df5-9861-c5704928bad4
 u
-java:S14442"-Make this "public static minutos" field final(ÒŒØäüÿÿÿÿ8úºŒŠ÷1J$853bd6d0-ba10-4224-afd1-4322ed8ff8b6
+java:S14443"-Make this "public static minutos" field final(ÒŒØäüÿÿÿÿ8²ø’‹÷1J$68832db7-feb6-497e-8897-f7604beb0a33
 y
-java:S14444"1Make this "public static tarifaCarro" field final(úùœÓøÿÿÿÿ8úºŒŠ÷1J$ed103b39-8aba-4745-9750-bb43bbbeba10
+java:S14445"1Make this "public static tarifaCarro" field final(úùœÓøÿÿÿÿ8²ø’‹÷1J$b069d7d1-e125-486e-97cf-b86e4b2cf402
 
-java:S14445"7Make this "public static tarifaMotoClasica" field final(Ùéæâøÿÿÿÿ8úºŒŠ÷1J$e1bdf02a-dd0e-4d83-9daf-bcc436a9765e
+java:S14446"7Make this "public static tarifaMotoClasica" field final(Ùéæâøÿÿÿÿ8²ø’‹÷1J$1d7f4588-b540-4db7-a748-ee0be9e6070e
 
-java:S14446"7Make this "public static tarifaMotoHibrida" field final(Ë£–íıÿÿÿÿ8úºŒŠ÷1J$146db459-fab9-4f13-8e81-a698d7241dfa
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8üºŒŠ÷1J$387badad-14a5-4452-82f9-2de1e8c247e4
+java:S14447"7Make this "public static tarifaMotoHibrida" field final(Ë£–íıÿÿÿÿ8²ø’‹÷1J$bc4fb44b-8df1-44ab-9ebc-264f0c1bfb8e
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8´ø’‹÷1J$c056f007-a716-473b-82b2-070aed8d91a3
 
-java:S1226o"MIntroduce a new variable instead of reusing the parameter "fechaHoraEntrada".(”Ñıt8şºŒŠ÷1J$9975dfc7-efab-4d4e-bfe8-7fac45c89487
+java:S1226p"MIntroduce a new variable instead of reusing the parameter "fechaHoraEntrada".(”Ñıt8µø’‹÷1J$eedd62a3-cac5-4893-b42a-73ac263928e6
 }
-java:S1118":Add a private constructor to hide the implicit public one.(¹Á¸À8Š»ŒŠ÷1J$44fdad3f-653d-441b-a1a1-314d30e08ee7
+java:S1118":Add a private constructor to hide the implicit public one.(¹Á¸À8Âø’‹÷1J$7b5a6db7-75c7-4376-9773-562e045ffea2
 d
-java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ8‹»ŒŠ÷1J$5fcea71b-817a-4d07-8965-24ebf149d825
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ8Äø’‹÷1J$29a93895-ccbd-4889-a2f8-c3c423648f6e
 „
-java:S1854_"<Remove this useless assignment to local variable "tipoMoto".(¹Šì–ÿÿÿÿÿ8»ŒŠ÷1J$7a0ff5ea-0c22-4611-82ca-9e91a1d2e7db
-r	java:S106;"+Replace this use of System.out by a logger.(Ò÷±Ÿÿÿÿÿÿ8»ŒŠ÷1J$42afc11c-5707-4f0a-bb3b-8f4714e077aa
-r	java:S106<"+Replace this use of System.out by a logger.(ËÂŞÄşÿÿÿÿ8»ŒŠ÷1J$84546d3f-14bd-491e-bc58-adbe00144c77
-r	java:S106?"+Replace this use of System.out by a logger.(ƒµ¨¼ÿÿÿÿÿ8»ŒŠ÷1J$0f6283bf-8615-4ab8-957f-b62caeb9848e
-l	java:S106D"+Replace this use of System.out by a logger.(Ü‡ã38»ŒŠ÷1J$2ce88e04-6e39-4480-97e6-f1b3254e3445
-m	java:S106E"+Replace this use of System.out by a logger.(·ğÎí8»ŒŠ÷1J$bf8c6ba2-7923-4681-bac0-070025ba792f
-r	java:S106H"+Replace this use of System.out by a logger.(¬Š„Õùÿÿÿÿ8»ŒŠ÷1J$86d95c3a-838f-42ae-b4bc-139c9b3dbe8c
-m	java:S106K"+Replace this use of System.out by a logger.(¼šØ8»ŒŠ÷1J$61f8a583-6d89-4a9e-8991-efcdca34423a
-m	java:S106U"+Replace this use of System.out by a logger.(ƒ‰³‰8‘»ŒŠ÷1J$c4445f8f-92de-4255-bd4c-b1d30e4e6db3
-m	java:S106Y"+Replace this use of System.out by a logger.(ê¸ºÆ8‘»ŒŠ÷1J$76a64218-11f0-44dc-b234-9cdc49cfc008
-r	java:S106Z"+Replace this use of System.out by a logger.(ø±êüÿÿÿÿ8‘»ŒŠ÷1J$58eef371-9378-4f7f-9f8a-7da3c932606c
-m	java:S106["+Replace this use of System.out by a logger.(§¡¯Ä8’»ŒŠ÷1J$693c6fd8-e1c2-4d71-84b6-af6bad59b0b8
+java:S1854`"<Remove this useless assignment to local variable "tipoMoto".(¹Šì–ÿÿÿÿÿ8Çø’‹÷1J$994eba28-f3e8-48cb-94c5-b59dec3ebfed
+r	java:S106<"+Replace this use of System.out by a logger.(Ò÷±Ÿÿÿÿÿÿ8Èø’‹÷1J$04891e4e-2259-4de5-b0df-73a3b5379f42
+r	java:S106="+Replace this use of System.out by a logger.(ËÂŞÄşÿÿÿÿ8Èø’‹÷1J$1718482d-f41a-4d9d-bce1-4e4f13c026e6
+r	java:S106@"+Replace this use of System.out by a logger.(ƒµ¨¼ÿÿÿÿÿ8Èø’‹÷1J$d9fc588f-fffb-4049-b8cb-e6f1e261f3be
+l	java:S106E"+Replace this use of System.out by a logger.(Ü‡ã38Èø’‹÷1J$4c0169a0-842a-4b35-9d54-cf0a301dddc9
+m	java:S106F"+Replace this use of System.out by a logger.(·ğÎí8Èø’‹÷1J$19ef51bf-de9f-43c1-8ac7-72478776fa6d
+r	java:S106I"+Replace this use of System.out by a logger.(¬Š„Õùÿÿÿÿ8Éø’‹÷1J$29c2e14a-b163-4658-bb57-81986c160d61
+m	java:S106L"+Replace this use of System.out by a logger.(¼šØ8Éø’‹÷1J$e76dd2bf-8744-475b-8903-d79dd00bc484
+m	java:S106V"+Replace this use of System.out by a logger.(ƒ‰³‰8Êø’‹÷1J$6dd907df-d092-476c-945a-abac1ddca623
+m	java:S106Z"+Replace this use of System.out by a logger.(ê¸ºÆ8Êø’‹÷1J$3f93f71d-39b1-4b8b-97fa-38f157cde8c6
+r	java:S106["+Replace this use of System.out by a logger.(ø±êüÿÿÿÿ8Êø’‹÷1J$db642a28-6c54-4d0f-a8e3-d80b3e320ff1
+m	java:S106\"+Replace this use of System.out by a logger.(§¡¯Ä8Êø’‹÷1J$b598347a-82ec-449d-97e8-17b888a9b887
 o
-java:S1125n"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8”»ŒŠ÷1J$cd65f528-8bc3-4080-8462-d0037693e5b0
+java:S1125o"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Ìø’‹÷1J$508d1662-fe67-4878-a410-72d8eab38623
 o
-java:S1125n"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8”»ŒŠ÷1J$a6118a53-5876-43d0-9026-d4ed28c8a7e8
-r	java:S106q"+Replace this use of System.out by a logger.(•²ÛËøÿÿÿÿ8”»ŒŠ÷1J$974540af-90a6-4a81-bce9-27eb003ffd3c
-r	java:S106~"+Replace this use of System.out by a logger.(ËÂŞÄşÿÿÿÿ8•»ŒŠ÷1J$7f7b56dc-0981-47d9-95a4-2225589d9a79
-s	java:S106€"+Replace this use of System.out by a logger.(ƒµ¨¼ÿÿÿÿÿ8•»ŒŠ÷1J$bd581a8e-1fae-4999-9585-011461e3c6e9
-s	java:S106š"+Replace this use of System.out by a logger.(Á„şíøÿÿÿÿ8–»ŒŠ÷1J$bbf7a7a4-1b96-4a03-822d-6142030baf8f
-n	java:S106œ"+Replace this use of System.out by a logger.(¹‘Èø8—»ŒŠ÷1J$bf90e848-737a-4750-aee7-6c457646843e
-s	java:S106£"+Replace this use of System.out by a logger.(¶îé¾úÿÿÿÿ8—»ŒŠ÷1J$abd623a6-29cc-4474-9212-ff48c50b4903
-s	java:S106¤"+Replace this use of System.out by a logger.(‚¬àÔÿÿÿÿÿ8—»ŒŠ÷1J$79955351-6059-41e2-bec3-1270dd9d283b
-s	java:S106¦"+Replace this use of System.out by a logger.(™¨Ìàıÿÿÿÿ8¡ÿ˜Š÷1J$aadf82a0-e208-41db-afb9-07ee06d96262
+java:S1125o"'Remove the unnecessary boolean literal.(ûüœ“üÿÿÿÿ8Íø’‹÷1J$21f10ce4-93c5-4aa7-9c11-5f9831c4f375
+r	java:S106r"+Replace this use of System.out by a logger.(•²ÛËøÿÿÿÿ8Íø’‹÷1J$5435e5ed-238f-4918-90b5-0ffa0302926a
+s	java:S106"+Replace this use of System.out by a logger.(ËÂŞÄşÿÿÿÿ8Îø’‹÷1J$2b9805d6-23c2-4f78-9bc3-4bd816dedd10
+s	java:S106ƒ"+Replace this use of System.out by a logger.(ƒµ¨¼ÿÿÿÿÿ8Îø’‹÷1J$ccfc3bc7-2afa-495e-89af-14e899a2be42
+s	java:S106"+Replace this use of System.out by a logger.(Á„şíøÿÿÿÿ8Ïø’‹÷1J$56d35aa6-56ab-4a9e-9f8c-e813d93f005b
+n	java:S106Ÿ"+Replace this use of System.out by a logger.(¹‘Èø8Ïø’‹÷1J$c376c39c-0fec-416b-a945-01be9833ee8c
+s	java:S106£"+Replace this use of System.out by a logger.(¶îé¾úÿÿÿÿ8Ğø’‹÷1J$5b02186c-a25b-4c7b-8ade-b406609d4652
+s	java:S106ª"+Replace this use of System.out by a logger.(‚¬àÔÿÿÿÿÿ8Ğø’‹÷1J$726ec3ab-811f-4f41-8a5f-72ca8e3f4715
+s	java:S106¬"+Replace this use of System.out by a logger.(™¨Ìàıÿÿÿÿ8–íÇ‹÷1J$b91b4fc5-7b0f-4078-9269-34ad7f69892d
 x
-java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8™»ŒŠ÷1J$8ae5369b-3750-4410-9f78-959b5d035e17
+java:S1128"0Remove this unused import 'java.time.LocalDate'.(›‘¬èıÿÿÿÿ8­¦É‹÷1J$12cba038-7658-4e36-a05a-c06486de737a
 x
 java:S1128
-"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8™»ŒŠ÷1J$81cc876f-60a3-490c-94a1-b1e337f8416d
+"0Remove this unused import 'java.time.LocalTime'.(à®øÃùÿÿÿÿ8­¦É‹÷1J$79eaddeb-3544-410c-ac51-79f24465feb8

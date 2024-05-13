@@ -12,6 +12,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
+import static co.edu.uniquindio.poo.Informe.Informe.registrarInfome;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
 import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.crearCarro;
 import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
@@ -111,6 +112,8 @@ public class ParqueaderoController {
                 fechaHoraEntrada = tiempoReal;
                 espacios[fila][columna] = new EspacioDao(id, espacioHabilitado, true, vehiculo, fechaHoraEntrada);
                 System.out.println(fechaHoraEntrada.format(formatoPresentacion) + "| Ingreso un vehiculo al espacio: " + id);
+                registrarInfome( fechaHoraEntrada.format(formatoPresentacion) + "| Ingreso un vehiculo al espacio: " + id, vehiculo);
+
             } else {
                 LOG.warning("El espacio esta deshabilitado o ocupado");
             }
@@ -157,10 +160,13 @@ public class ParqueaderoController {
             }
 
 
+            System.out.println(fechaHoraSalida.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId());
+            registrarInfome( fechaHoraSalida.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getVehiculo());
+
             //Se reinicia el espacio a su estado vacio
             espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), false);
 
-            System.out.println(fechaHoraSalida.format(formatoPresentacion) + "| Salio un vehiculo del espacio: " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId());
+
             System.out.println("El espacio " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + " se ha liberado");
 
             System.out.println("La duracion del vehiculo fue de " + horas + " horas y " + minutos + " minutos.");

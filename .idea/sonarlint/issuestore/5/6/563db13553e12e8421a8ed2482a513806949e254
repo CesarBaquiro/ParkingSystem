@@ -1,23 +1,34 @@
 
-¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8“Ğ‹‰÷1J$940bc89c-fb4a-4f96-a090-1dc7e70ecf6e
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(å°ö¹úÿÿÿÿ8«‹÷1J$2e70c5bf-f859-4f0e-9076-9443a6da31fe
 }
-java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8ÀĞ‹‰÷1J$1b2a6be0-54da-4021-81c8-03afad762ed6
-m	java:S106"+Replace this use of System.out by a logger.(­ÃÒü8ÄĞ‹‰÷1J$2e23de53-726a-42c1-95d5-aaba2d8df18d
-r	java:S106 "+Replace this use of System.out by a logger.(ô‘ÏØşÿÿÿÿ8ÄĞ‹‰÷1J$ed5f8e73-0bf2-4fdc-b694-7da0c234457a
-r	java:S106!"+Replace this use of System.out by a logger.(õ—…ôùÿÿÿÿ8ÅĞ‹‰÷1J$c8a70b39-dae0-4826-81f0-ea69d357c3a2
-m	java:S106""+Replace this use of System.out by a logger.(¸½Òà8ÅĞ‹‰÷1J$8ddf4c99-24af-4adc-ba29-0e9ebe403d03
-m	java:S106#"+Replace this use of System.out by a logger.(Ú‰ãå8ÅĞ‹‰÷1J$2b3ec319-fdb1-4454-9c1a-ff6f04ac8ced
-r	java:S106$"+Replace this use of System.out by a logger.(¾€¹úÿÿÿÿ8ÅĞ‹‰÷1J$75c3b646-58f1-4819-8593-1d72a5da4988
-r	java:S106%"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8ÅĞ‹‰÷1J$4588d1a0-f30a-4b31-8048-5214b1250d4d
-m	java:S106+"+Replace this use of System.out by a logger.(áâ¬ì8ÅĞ‹‰÷1J$1df20b33-4943-4f17-b669-412350bcf27c
-~	java:S125,"<This block of commented-out lines of code should be removed.(èŞÁá8ÅĞ‹‰÷1J$e55a2ffe-c621-4974-84cc-f675f048272f
-r	java:S106/"+Replace this use of System.out by a logger.(¾¥•ßùÿÿÿÿ8ÆĞ‹‰÷1J$4d9d7f68-2f0e-4e2d-9577-b41452a8d65e
-m	java:S1064"+Replace this use of System.out by a logger.(Ù·˜ì8ÇĞ‹‰÷1J$d7808031-7799-4473-a385-ad7de50b8b8e
-m	java:S1065"+Replace this use of System.out by a logger.(§¨¿´8ÇĞ‹‰÷1J$c016f3c0-ba7f-4d5c-b19d-b02991772ac2
-r	java:S1066"+Replace this use of System.out by a logger.(§—ÑÉşÿÿÿÿ8ÇĞ‹‰÷1J$20339672-f5e8-4883-a0a7-75ea7483136e
-m	java:S106;"+Replace this use of System.out by a logger.(¤Šà¤8ÇĞ‹‰÷1J$077d0f44-eefd-4b10-96d3-ce1f8ce9ecc0
-m	java:S106>"+Replace this use of System.out by a logger.(®¡ı8ÇĞ‹‰÷1J$7fdf03f2-0190-4c4e-85b8-d3abdbe6c2b0
-r	java:S106@"+Replace this use of System.out by a logger.(äŸ®†şÿÿÿÿ8ÈĞ‹‰÷1J$ab238539-57fb-4fba-b540-64dd9eac2e41
-m	java:S106J"+Replace this use of System.out by a logger.(¨ùÂ‡8ÈĞ‹‰÷1J$9078ef6d-5031-48c0-8276-6170cf54ca10
+java:S1118":Add a private constructor to hide the implicit public one.(Ìì¢Ï8ä«‹÷1J$57e1da2d-f78b-4109-bf74-a69d5e530d14
+m	java:S106 "+Replace this use of System.out by a logger.(­ÃÒü8é«‹÷1J$e1295301-cdec-4098-846e-f886cdd4410d
+r	java:S106!"+Replace this use of System.out by a logger.(ô‘ÏØşÿÿÿÿ8é«‹÷1J$f2685c20-a38a-4924-96ac-3ed506820203
+r	java:S106""+Replace this use of System.out by a logger.(õ—…ôùÿÿÿÿ8é«‹÷1J$6566b9cf-e5b7-434c-a17c-74434d1bd378
+m	java:S106#"+Replace this use of System.out by a logger.(¸½Òà8é«‹÷1J$f5ff8c9b-f176-45f1-a1e0-6d3a6602d47d
+r	java:S106$"+Replace this use of System.out by a logger.(ó³¶Õÿÿÿÿÿ8é«‹÷1J$315eccac-2cdd-45c9-9c52-8053943eb09e
+r	java:S106%"+Replace this use of System.out by a logger.(–½ñ®øÿÿÿÿ8é«‹÷1J$8ca97c93-b65d-497a-8e28-dd6ec09828f0
+m	java:S106&"+Replace this use of System.out by a logger.(Ç›ƒ¡8é«‹÷1J$edb0b236-dcf0-430a-92a7-2cc8cfb42eb1
+r	java:S106'"+Replace this use of System.out by a logger.(Ï­×Ñûÿÿÿÿ8ê«‹÷1J$8f2e2fc0-8648-46f3-be44-3b3e50f5a730
+“	java:S128B"LEnd this switch case with an unconditional break, return or throw statement.(µ»ïşıÿÿÿÿ8ˆÅĞ‹÷1J$7b471f53-bc69-4df5-9fdf-66e644e446ef
+m	java:S106-"+Replace this use of System.out by a logger.(áâ¬ì8ë«‹÷1J$50bb59cf-e519-42cb-a474-e80088ccefd0
+~	java:S125."<This block of commented-out lines of code should be removed.(èŞÁá8ê«‹÷1J$599a1423-792f-4b32-8fa7-8c0d251b0e65
+r	java:S1060"+Replace this use of System.out by a logger.(¾¥•ßùÿÿÿÿ8ë«‹÷1J$5919af6a-8329-4aee-84e6-b14779f5609f
+m	java:S1063"+Replace this use of System.out by a logger.(Ù·˜ì8ë«‹÷1J$79a409f8-7594-49e9-b130-7e8cc39e4ba6
+m	java:S1064"+Replace this use of System.out by a logger.(§¨¿´8ì«‹÷1J$718e4614-5833-4102-91e2-708e8455dac8
+r	java:S1065"+Replace this use of System.out by a logger.(§—ÑÉşÿÿÿÿ8ì«‹÷1J$40f27489-7589-404d-953e-8600ec8d5ce7
+m	java:S106:"+Replace this use of System.out by a logger.(¤Šà¤8ì«‹÷1J$faa53abf-5af9-4e38-b2f6-620cec9b041d
+m	java:S106="+Replace this use of System.out by a logger.(®¡ı8í«‹÷1J$c7e614d4-6add-448f-9c87-d279fc1e7f75
+r	java:S106?"+Replace this use of System.out by a logger.(äŸ®†şÿÿÿÿ8Š‹÷1J$dc455e83-2721-45f0-ba1e-7fbfda78c887
+r	java:S106C"+Replace this use of System.out by a logger.(âÇ°úÿÿÿÿ8‹ÅĞ‹÷1J$6725a4cf-1821-45de-9332-364a7918a11c
+m	java:S106L"+Replace this use of System.out by a logger.(¨ùÂ‡8öşĞ‹÷1J$a1b157a0-a814-4ae2-a1bd-77781670c58d
+œ
+java:S1128"TRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoController'.(ÒË…Õùÿÿÿÿ8©¢Ï‹÷1J$66e6db33-5474-4360-8d9d-2fd36b02a705
+•
+java:S1128"MRemove this unused import 'co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao'.(…»’…ıÿÿÿÿ8©¢Ï‹÷1J$3426b8e7-071a-4b5e-ba4b-279223717304
+
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8©¢Ï‹÷1J$893e2283-977a-40f0-9846-2f1e1ccadf0e
+Š
+java:S1128"GRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.VehiculoDao'.(ñöøŒ8©¢Ï‹÷1J$8bdb39e4-b7d0-4ae1-927e-0325eb0e3bab
 j
-java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8ÉĞ‹‰÷1J$1be8c58e-bf11-4922-b540-9fa692b23e92
+java:S1068"'Remove this unused "LOG" private field.(ïÑ–¨8î«‹÷1J$e8328837-a587-44bf-93fd-17dd79ebaf80
