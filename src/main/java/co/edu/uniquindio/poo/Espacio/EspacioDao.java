@@ -10,6 +10,9 @@ import java.util.logging.Logger;
 import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.formatoPresentacion;
 import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 
+/**
+ * Clase EspacioDao, contiene los parametros y metodos de cada espacio en el ParqueaderoDao
+ */
 public class EspacioDao {
     private String id;
     private Boolean espacioHabilitado;
@@ -19,13 +22,12 @@ public class EspacioDao {
 
     private static final Logger LOG = Logger.getLogger(EspacioDao.class.getName());
 
-    // Constructor sin los objetos carro y moto
+    // Constructor sin el objeto vehiculo (Se usa cuando un espacio esta vacio)
     public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado) {
         this.id = id;
         this.espacioHabilitado = espacioHabilitado;
         this.ocupado = ocupado;
     }
-
 
     // Constructor con todos los parámetros
     public EspacioDao(String id, boolean espacioHabilitado, boolean ocupado, VehiculoDao vehiculo, LocalDateTime fechaHoraEntrada) {
@@ -36,30 +38,16 @@ public class EspacioDao {
         this.fechaHoraEntrada = fechaHoraEntrada;
     }
 
-
-
     public String getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public Boolean getEspacioHabilitado() {
         return espacioHabilitado;
     }
 
-    public void setEspacioHabilitado(Boolean espacioHabilitado) {
-        this.espacioHabilitado = espacioHabilitado;
-    }
-
     public Boolean getOcupado() {
         return ocupado;
-    }
-
-    public void setOcupado(Boolean ocupado) {
-        this.ocupado = ocupado;
     }
 
     public VehiculoDao getVehiculo() {
@@ -67,14 +55,6 @@ public class EspacioDao {
     }
 
     public LocalDateTime getFechaHoraEntrada() {return fechaHoraEntrada;}
-
-    public void setFechaHoraEntrada(LocalDateTime fechaHoraEntrada) {
-        this.fechaHoraEntrada = fechaHoraEntrada;
-    }
-
-
-    // Método para crear un nuevo espacio
-
 
     // Método toString para representar el objeto como cadena de caracteres
     @Override

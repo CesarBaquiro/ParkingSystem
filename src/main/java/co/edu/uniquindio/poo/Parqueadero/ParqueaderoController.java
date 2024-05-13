@@ -17,7 +17,9 @@ import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
 import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.crearCarro;
 import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 
-
+/**
+ * Clase ParqueaderoController controlar todos los procesos relacionados el parqueadero y sus espacios
+ */
 public class ParqueaderoController {
 
 
@@ -38,23 +40,14 @@ public class ParqueaderoController {
     //Formato de hora para visualizacion del usuario
     public static DateTimeFormatter formatoPresentacion = DateTimeFormatter.ofPattern("dd MMMM yyyy, HH:mm");
     public static String tiempoRealFormateadoRegistro = tiempoReal.format(formatoRegistro);
-
-
     public static LocalDateTime fechaHoraEntrada;
     public static LocalDateTime fechaHoraSalida;
-
-    //A partir de 14 minutos extra a la hora, cuenta 1 hora mas al tiempo estacionado
-
     public static Duration duracion;
-
     public static long horas;
     public static long minutos;
-
     public static double tarifaCarro = 3000;
     public static double tarifaMotoClasica = 2000;
     public static double tarifaMotoHibrida = 2500;
-
-
 
     public static void registrar(Integer seleccionarVehiculo) {
         System.out.println("---Ingrese la posicion donde quiere el registro---");
@@ -76,10 +69,9 @@ public class ParqueaderoController {
             System.out.println("Ingrese el modelo: ");
             String modelo = scanner.nextLine();
 
-
-            //Si es 1 se crea un carro
+            //Se evalua si se va a registrar un carro (opcion 1) o una moto (opcion 2)
             if (seleccionarVehiculo == 1) {
-
+                //Se registra el carro en el espacio
                 actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearCarro(nombre, placa, modelo), fechaHoraEntrada);
 
             } else if (seleccionarVehiculo == 2) {
@@ -93,14 +85,16 @@ public class ParqueaderoController {
                 Integer seleccionTipoMoto = scanner.nextInt();
                 scanner.nextLine();
 
-                TipoMoto tipoMoto = TipoMoto.CLASICA;
+                //Se inicializa el tipo de moto
+                TipoMoto tipoMoto;
 
+                //Se verifica el tipo de moto a registrar
                 if (seleccionTipoMoto == 1) {
                     tipoMoto = TipoMoto.CLASICA;
                 } else {
                     tipoMoto = TipoMoto.HIBRIDA;
                 }
-
+                //Se registra la moto en el espacio
                 actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto), fechaHoraEntrada);
             }
         }
@@ -170,8 +164,6 @@ public class ParqueaderoController {
             System.out.println("El espacio " + ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + " se ha liberado");
 
             System.out.println("La duracion del vehiculo fue de " + horas + " horas y " + minutos + " minutos.");
-
-
         } else {
             LOG.warning("El espacio ingresado esta vacio");
         }

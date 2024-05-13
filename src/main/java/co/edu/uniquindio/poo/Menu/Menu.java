@@ -17,11 +17,12 @@ import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao.*;
 import static co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao.crearCarro;
 import static co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto;
 
+/**
+ * Clase Menu para el control de la aplicacion y sus procesos
+ */
 
 public class Menu {
     private static final Logger LOG = Logger.getLogger(Menu.class.getName());
-
-
     private static final Scanner scanner = new Scanner(System.in);
     public static void seleccionarMenu() {
 
@@ -35,8 +36,7 @@ public class Menu {
             System.out.println("3. Registrar salida");
             System.out.println("4. Informes");
             System.out.println("5. Configuracion");
-            System.out.println("6. Pruebas");
-            System.out.println("7. Salir");
+            System.out.println("6. Salir");
             System.out.print("Seleccione una opción: ");
 
             opcion = scanner.nextInt();
@@ -89,16 +89,11 @@ public class Menu {
                     }
 
                     break;
-                case 6:
-                    espacios[0][0] = new EspacioDao("PRUEBA1", true, true, crearCarro("Cesar", "GGG555", "2015"), tiempoReal);
-                    espacios[1][1] = new EspacioDao("PRUEBA2", true, true, crearMoto("Argemiro", "ZZZ111", "2000", 100, TipoMoto.CLASICA), tiempoReal);
-                    espacios[2][2] = new EspacioDao("PRUEBA3", true, true, crearMoto("Damian", "QQQ333", "2030", 200, TipoMoto.HIBRIDA), tiempoReal);
-                    break;
                 default:
                     System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
             }
 
-        } while (opcion != 7);
+        } while (opcion != 6);
         scanner.close();
 
     }

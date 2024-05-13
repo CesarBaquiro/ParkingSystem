@@ -8,10 +8,12 @@ import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
  * */
 public class CarroDao extends VehiculoDao {
 
+    //Constructor del objeto carro
     public CarroDao(String nombre, String placa, String modelo) {
         super(nombre, placa, modelo);
     }
 
+    //Metodo para instanciar un carro
     public static CarroDao crearCarro(String nombre, String placa, String modelo){
         return new CarroDao(nombre, placa, modelo);
     }
@@ -20,26 +22,14 @@ public class CarroDao extends VehiculoDao {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
     @Override
     public String getPlaca() {
         return placa;
     }
 
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
-
     @Override
     public String getModelo() {
         return modelo;
-    }
-
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
     }
 
     @Override
