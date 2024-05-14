@@ -6,10 +6,8 @@ import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 import java.time.LocalDateTime;
 
 /**
- * Clase para el parqueadero, contiene sus atributos
- * y metodos
+ * Clase ParqueaderoDao contiene sus atributos y metodos para la configuracion del parqueadero
  * */
-
 public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
