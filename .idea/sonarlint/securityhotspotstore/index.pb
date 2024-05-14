@@ -28,3 +28,5 @@ o
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+h
+8src/main/java/co/edu/uniquindio/poo/Informe/Informe.java,d\9\d9a790290498978ca4b98d38c00fad234faeec72

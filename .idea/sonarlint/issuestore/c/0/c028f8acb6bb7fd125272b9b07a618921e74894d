@@ -1,8 +1,10 @@
 
-œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ‚»Ş8ÍÒÃ²ó1J$10a81b9a-4226-4e0f-9a85-9be970d99ebf
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ‚»Ş8—˜ ˆ÷1J$388bf1e2-d83a-4155-a113-2274327d1a24
 
-java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8àÒÃ²ó1J$d90d3f58-9a6b-4027-96df-a5814b389b23
+java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8¥˜ ˆ÷1J$eea8452a-9562-4921-84c8-6ca05845ef1f
 
-java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8àÒÃ²ó1J$f3bebec9-f529-4c06-802a-5f6a1b96f51a
+java:S1128"HRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao'.(ô˜¹†ÿÿÿÿÿ8§˜ ˆ÷1J$3bd52ac9-9933-407f-95f5-5cef594d3809
+š
+java:S1128"RRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Moto.MotoDao.crearMoto'.(Ñ’·¾şÿÿÿÿ8©˜ ˆ÷1J$b13ffc21-686c-4aa2-8b17-195558fa50ff
 j
-java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8àÒÃ²ó1J$94bdc3ad-ec2b-45a6-a76b-cda6198d4ff3
+java:S1068"'Remove this unused "LOG" private field.(Ú“’œ8¬˜ ˆ÷1J$42bd0582-31bf-4b95-b042-45bbdc19a089

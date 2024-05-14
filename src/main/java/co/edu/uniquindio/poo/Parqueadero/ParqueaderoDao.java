@@ -1,45 +1,42 @@
 package co.edu.uniquindio.poo.Parqueadero;
 
 import co.edu.uniquindio.poo.Espacio.EspacioDao;
+import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
-import java.util.logging.Logger;
+import java.time.LocalDateTime;
 
 /**
- * Clase para el parqueadero, contiene sus atributos
- * y metodos
+ * Clase ParqueaderoDao contiene sus atributos y metodos para la configuracion del parqueadero
  * */
 public class ParqueaderoDao {
 
     private EspacioDao[][] matrizEspacios;
-    public static int FILAS = 5;
-
-
-
-    public static int COLUMNAS = 5;
+    public static int FILAS = 3;
+    public static int COLUMNAS = 3;
     private Boolean espacioHabilitado;
     private Boolean espacioProhibido;
     private Boolean estado;
 
-    //Implementacion del logger
-    private static final Logger LOG = Logger.getLogger(ParqueaderoDao.class.getName());
 
-    public ParqueaderoDao() {
-        matrizEspacios = new EspacioDao[FILAS][COLUMNAS];
-    }
+    public static double costoHoraCarro = 3000;
+    public static double costoHoraMoto = 3000;
+
+    //Implementacion del logger
 
     //Matriz que define los espacios del parqueadero
     public static EspacioDao[][] espacios = new EspacioDao[0][0];
 
 
     //Asignacion de espacio 5x5 por defecto
-    public static EspacioDao[][] configuracionDefecto(){
+    public static EspacioDao[][] configuracionDefecto(Integer FILAS, Integer COLUMNAS){
 
         int letraCodigoAscii = 65;
-        espacios = new EspacioDao[3][3];
+        espacios = new EspacioDao[FILAS][COLUMNAS];
         int numId = 0;
 
         //Rellenar la matriz
         for(int i=0; i< espacios.length; i++){
+                numId = 0;
                 char caracter = (char) letraCodigoAscii;
                 letraCodigoAscii = letraCodigoAscii+1;
             for(int j=0; j< espacios.length; j++) {
@@ -99,6 +96,7 @@ public class ParqueaderoDao {
         this.estado = estado;
     }
 
+
     public static EspacioDao[][] getEspacios() {
         return espacios;
     }
@@ -110,6 +108,8 @@ public class ParqueaderoDao {
     public static EspacioDao getEspacio(Integer fila, Integer columna) {
         return espacios[fila][columna];
     }
+
+
 
 
 }

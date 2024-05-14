@@ -1,34 +1,40 @@
 
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ş¹ÿÿÿÿÿ8 ı¤˜÷1J$6e1f3325-992d-4aad-a060-fb04d41576e7
+˜	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ş¹ÿÿÿÿÿ8¡ı¤˜÷1J$39b3454b-9c8b-48f8-85f8-9b0353de582d
 ”
-java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(©ŸØÄ8Ñ·°²ó1J$cbe16ea0-b31c-415e-8903-b2e8dc877c1c
+java:S1104"QMake FILAS a static final constant or non-public and provide accessors if needed.(ˆÀÙ‘8”Ôó—÷1J$35a9e4b2-5561-4bea-9f5b-2ec3901c786c
 œ
-java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(Üß˜¶øÿÿÿÿ8Ò·°²ó1J$d99a2b92-f0c8-470e-9dc8-5c2294f47679
+java:S1104"TMake COLUMNAS a static final constant or non-public and provide accessors if needed.(¤´±áıÿÿÿÿ8•Ôó—÷1J$2922d96e-ebc0-46e3-ad4d-301365d9bbc1
+
+java:S1104"ZMake costoHoraCarro a static final constant or non-public and provide accessors if needed.(»”¨›8•Ôó—÷1J$b866e72f-f4c9-4ab9-a1fc-6a983f9a4222
+¡
+java:S1104"YMake costoHoraMoto a static final constant or non-public and provide accessors if needed.(Š»üıÿÿÿÿ8•Ôó—÷1J$637f4616-5fa8-4419-b716-21472fe45aab
 œ
-java:S1104"TMake espacios a static final constant or non-public and provide accessors if needed.(ì·ô…øÿÿÿÿ8Ò·°²ó1J$42379afb-d361-49ac-8976-4fc39cf55378
+java:S1104"TMake espacios a static final constant or non-public and provide accessors if needed.(ì·ô…øÿÿÿÿ8•Ôó—÷1J$6a25dac6-0384-4ed4-bc98-3f42c0f7e2a6
 n
-java:S1444"+Make this "public static FILAS" field final(©ŸØÄ8Ò·°²ó1J$b56b7fe4-8c6e-40c8-920a-74324bae6ad2
+java:S1444"+Make this "public static FILAS" field final(ˆÀÙ‘8–Ôó—÷1J$6dd08d24-0f89-4f5f-ad15-87d2c36b1f48
 v
-java:S1444".Make this "public static COLUMNAS" field final(Üß˜¶øÿÿÿÿ8Ó·°²ó1J$4652da29-511e-4822-9d6d-f6c0ccb57b11
-v
-java:S1444".Make this "public static espacios" field final(ì·ô…øÿÿÿÿ8Ó·°²ó1J$a189c8b0-2eb4-4fb8-9624-94757c650dad
-›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8Ö·°²ó1J$2f9f8f49-d6fb-4762-ab1b-d9e606ce1fae
-“
-java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ŸØÄ8ü·°²ó1J$8e95f561-ad56-4cf2-9c9a-a4d32caae90c
-›
-java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üß˜¶øÿÿÿÿ8ü·°²ó1J$137260be-7203-4f94-b6a4-8cb42233da27
-e
-java:S2386"Make this member "protected".(ì·ô…øÿÿÿÿ8ı·°²ó1J$84b3063f-d9bb-4a8a-bffb-81d8d32db238
-r	java:S106<"+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8ˆ¸°²ó1J$18e564c3-c742-4797-898f-3879ff9a8ad4
-r	java:S106>"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ˆ¸°²ó1J$d5a4cd38-7dda-4f89-965e-3d04b72a08a8
-
-java:S1128"JRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.Carro.CarroDao'.(Áç”¬8‰¸°²ó1J$5451c21c-0778-4572-98c0-925b716a3b67
-z
-java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8Š¸°²ó1J$e99820a9-1cf8-43b1-9377-2647a6d62e27
-}
-java:S1068"5Remove this unused "espacioHabilitado" private field.(«‘ë¯üÿÿÿÿ8Š¸°²ó1J$57400482-9a72-4108-b840-c25eec14e266
+java:S1444".Make this "public static COLUMNAS" field final(¤´±áıÿÿÿÿ8–Ôó—÷1J$1958940d-67b9-4125-908b-543a53bf6207
 w
-java:S1068"4Remove this unused "espacioProhibido" private field.(–ß®‡8Š¸°²ó1J$3bcf20dd-e2ca-4992-b78d-221481f87919
-m
-java:S1068"*Remove this unused "estado" private field.(ò¯¨õ8Š¸°²ó1J$3af250a2-e16b-4c7f-a159-3ba1af562eda
-j
-java:S1068"'Remove this unused "LOG" private field.(¶šÍ›8Š¸°²ó1J$502369b7-ce4d-4301-b392-13ba815d012e
+java:S1444"4Make this "public static costoHoraCarro" field final(»”¨›8–Ôó—÷1J$ddfc3b4b-b6d3-4531-9e21-db084a799904
+{
+java:S1444"3Make this "public static costoHoraMoto" field final(Š»üıÿÿÿÿ8–Ôó—÷1J$48236915-10b8-4ff2-9b15-b9b9e0b61def
+v
+java:S1444".Make this "public static espacios" field final(ì·ô…øÿÿÿÿ8–Ôó—÷1J$78e8ab2e-aca3-4156-8aa8-c1cea6e282a8
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷;8—Ôó—÷1J$e4339055-9d83-4c26-acd0-3026b6878e44
+“
+java:S3008"PRename this field "FILAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÀÙ‘8§Ôó—÷1J$9590632b-6a61-4468-855a-adfb8a93b440
+›
+java:S3008"SRename this field "COLUMNAS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤´±áıÿÿÿÿ8§Ôó—÷1J$230a5655-b265-4d41-8fa9-20e7b85ad9f3
+¥
+java:S1450"]Remove the "matrizEspacios" field and declare it as a local variable in the relevant methods.(Ğë¬–ùÿÿÿÿ8ò„ô—÷1J$28d6d1e7-24fd-440a-b3bc-ea935d92114d
+e
+java:S2386"Make this member "protected".(ì·ô…øÿÿÿÿ8ªÔó—÷1J$3f89ca6b-dcbe-4f56-9d56-e6b0f31bef2c
+r	java:S106;"+Replace this use of System.out by a logger.(ùõ‰­ıÿÿÿÿ8²Ôó—÷1J$a143b486-5485-4a70-b5ce-bfc1f24892d5
+r	java:S106="+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8²Ôó—÷1J$b475991e-5138-435e-b94e-6ddbd5720f55
+Š
+java:S1128"GRemove this unused import 'co.edu.uniquindio.poo.Vehiculo.VehiculoDao'.(ñöøŒ8·Ôó—÷1J$ed137897-eca4-4f77-90e6-4031c3ffa27b
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8·Ôó—÷1J$923743ce-16d8-43d8-b312-84d7e3960cb2
+z
+java:S1068"2Remove this unused "matrizEspacios" private field.(Ğë¬–ùÿÿÿÿ8¸Ôó—÷1J$06263a33-69ff-47ed-83a4-424c4c7f99f1
