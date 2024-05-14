@@ -1,32 +1,16 @@
 
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-A
-rectangle_tdd.iml,6\1\617c392565429620cc9bb107bcd4064964e81a2e
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-`
-0src/test/java/co/edu/uniquindio/poo/AppTest.java,6\9\6996ae0735edde0367f37a63fffa05be20e4f03b
+k
+;src/main/java/co/edu/uniquindio/poo/ParkingApplication.java,8\5\859f2b51b7622f3044db18b0ddf2f236365db1f4
+j
+:src/main/java/co/edu/uniquindio/poo/ParkingController.java,2\6\260c920aa95d4f06616f80bb5ef0ab337ce07aae
+N
+src/main/java/module-info.java,1\c\1c89a5491fbfda3fb050196d6a239f20200296e7
 \
 ,src/main/java/co/edu/uniquindio/poo/App.java,d\7\d786b3e028b2de854c85a1e292c84a9d61970fc7
-s
-Csrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoDao.java,1\f\1fb80d431465baac37f52d9f447c757490468f26
 b
 2src/main/java/co/edu/uniquindio/poo/Menu/Menu.java,5\6\563db13553e12e8421a8ed2482a513806949e254
-z
-Jsrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoController.java,0\0\00951300208291ab0b859bf12600b216740111f3
-k
-;src/main/java/co/edu/uniquindio/poo/Espacio/EspacioDao.java,c\0\c028f8acb6bb7fd125272b9b07a618921e74894d
-p
-@src/main/java/co/edu/uniquindio/poo/Vehiculo/Carro/CarroDao.java,5\5\55f59ace7bc620453933cefc3c9a5649d13b729a
-m
-=src/main/java/co/edu/uniquindio/poo/Vehiculo/VehiculoDao.java,f\1\f10aef36030df37289ad204a0bedf0ff8d8811a6
-n
->src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/MotoDao.java,f\3\f338bc9a8ac8b31f611713da897ede63f91e030e
-o
-?src/main/java/co/edu/uniquindio/poo/Vehiculo/Moto/TipoMoto.java,9\a\9a7fc62207dfe36f4472ff4243bfd85c2e8d349b
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
-h
-8src/main/java/co/edu/uniquindio/poo/Informe/Informe.java,d\9\d9a790290498978ca4b98d38c00fad234faeec72

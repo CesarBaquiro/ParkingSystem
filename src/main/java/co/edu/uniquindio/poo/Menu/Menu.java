@@ -95,6 +95,7 @@ public class Menu {
             }
 
         } while (opcion != 6);
+        System.out.println("---Gracias por usar Parking System---");
         scanner.close();
 
     }
