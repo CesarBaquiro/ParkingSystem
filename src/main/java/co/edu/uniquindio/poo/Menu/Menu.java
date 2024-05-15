@@ -85,8 +85,10 @@ public class Menu {
                         if(confirmacion == 1){
                             configuracionDefecto(FILAS, COLUMNAS);
                         }
-                    }else{
+                    }else if (opcionConfiguracion == 2) {
                         actualizarHabilitado();
+                    }else{
+                        System.out.println("Esta opción no esta disponible");
                     }
 
                     break;
