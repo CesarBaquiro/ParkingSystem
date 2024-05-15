@@ -181,10 +181,10 @@ public class ParqueaderoController {
             if (ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado() == false) {
                 if(ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado() == true){
                     espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), false, false);
-                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + "se ha deshabilitado");
+                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + " se ha deshabilitado");
                 }else{
                     espacios[selectFila][selectColumna] = new EspacioDao(ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), true, false);
-                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + "se ha habilitado");
+                    LOG.warning("El espacio "+ ParqueaderoDao.getEspacio(selectFila, selectColumna).getId() + " se ha habilitado");
                 }
             } else {
                 LOG.warning("El espacio esta ocupado");
