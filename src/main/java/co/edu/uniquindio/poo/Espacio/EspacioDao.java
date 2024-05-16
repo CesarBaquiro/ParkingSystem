@@ -46,8 +46,15 @@ public class EspacioDao {
         return espacioHabilitado;
     }
 
+    public void setEspacioHabilitado(Boolean espacioHabilitado) {
+        this.espacioHabilitado = espacioHabilitado;
+    }
+
     public Boolean getOcupado() {
         return ocupado;
+    }
+    public void setOcupado(Boolean estado) {
+        this.ocupado = !estado;
     }
 
     public VehiculoDao getVehiculo() {
@@ -67,15 +74,16 @@ public class EspacioDao {
                     ", ocupado=" + ocupado +
                     ", fechaHoraEntrada= " + fechaHoraEntrada.format(formatoPresentacion) +
                     ", " + vehiculo.toString() +
-                    "} | ";
+                    "}";
         } else {
             return "EspacioDao{" +
                     "id='" + id + '\'' +
                     ", espacioHabilitado=" + espacioHabilitado +
                     ", ocupado=" + ocupado +
-                    "} | ";
+                    "}";
         }
     }
+
 
 
 }

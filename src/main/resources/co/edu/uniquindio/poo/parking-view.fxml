@@ -7,27 +7,25 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="TOP_CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+<VBox spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="co.edu.uniquindio.poo.ParkingController"
       stylesheets="@styles.css">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
 
-    <!-- Encabezado -->
+    <!-- Contenedor 1 -->
     <Label text="Parking System" styleClass="h1"/>
+    <Button text="Informes" onAction="#informes"/>
+    <Button text="Configuracion" onAction="#configuracion"/>
 
-    <!-- Botones -->
-    <VBox spacing="10" alignment="CENTER">
-        <Button text="Nuevo ingreso" onAction="#nuevoIngreso"/>
-        <Button text="Informes" onAction="#informes"/>
-        <Button text="Configuración" onAction="#configuracion"/>
-    </VBox>
+    <!-- Contenedor 2 -->
+    <!-- Formulario activable -->
 
-    <!-- Panel de la matriz 5x5 -->
+
+    <!-- Contenedor 3 -->
     <BorderPane>
         <center>
-            <GridPane fx:id="gridPane" hgap="5" vgap="5" alignment="CENTER"/>
+            <GridPane fx:id="gridPane" hgap="10" vgap="10" alignment="CENTER">
+                <!-- Los botones se añadirán aquí dinámicamente -->
+            </GridPane>
         </center>
     </BorderPane>
 </VBox>

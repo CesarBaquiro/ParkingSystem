@@ -45,10 +45,6 @@ public class ParqueaderoDao {
                 espacios[i][j] = new EspacioDao(id,true, false);
             }
         }
-
-
-
-
     return espacios;
     }
 
@@ -56,12 +52,11 @@ public class ParqueaderoDao {
         //Mostrar la matriz en pantalla
         for(int i=0; i< espacios.length; i++){
             for(int j=0; j< espacios.length; j++) {
-                System.out.print(espacios[i][j]+" ");
+                System.out.print(espacios[i][j]+" | ");
             }
             System.out.println();
         }
     }
-
 
     public EspacioDao getMatrizEspacios(EspacioDao espacios) {
         return espacios;
@@ -93,7 +88,7 @@ public class ParqueaderoDao {
     }
 
     public void setEstado(Boolean estado) {
-        this.estado = estado;
+        this.estado = !estado;
     }
 
 
@@ -108,8 +103,5 @@ public class ParqueaderoDao {
     public static EspacioDao getEspacio(Integer fila, Integer columna) {
         return espacios[fila][columna];
     }
-
-
-
 
 }

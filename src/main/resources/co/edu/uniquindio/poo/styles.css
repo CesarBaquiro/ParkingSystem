@@ -1,9 +1,13 @@
 /* Estilo para el encabezado "Parking System" */
+
 .h1 {
     -fx-font-size: 36px; /* Incrementa el tamaño de la fuente */
     -fx-text-fill: #333; /* Cambia el color del texto */
     -fx-padding: 20px 0; /* Añade espacio alrededor del texto */
+    -fx-alignment: center; /* Centra el texto verticalmente */
+
 }
+
 
 /* Estilo para los botones */
 .button {
@@ -13,18 +17,22 @@
 
 /* Estilo para los botones cuando se les pasa el mouse por encima */
 .button:hover {
-    -fx-background-color: #ddd; /* Cambia el color de fondo cuando se pasa el mouse */
+    -fx-background-color: #d7d7d7; /* Cambia el color de fondo cuando se pasa el mouse */
+}
+
+BorderPane{
+    -fx-background-color: #d7d7d7; /* Cambia el color de fondo cuando se pasa el mouse */
 }
 
 /* Estilo para la matriz de cuadros */
 GridPane {
     -fx-hgap: 10; /* Cambia el espacio horizontal entre los cuadros */
     -fx-vgap: 10; /* Cambia el espacio vertical entre los cuadros */
+
 }
 
 /* Estilo para los cuadros de la matriz */
 .button-grid {
-    -fx-background-color: #ccc; /* Cambia el color de fondo de los cuadros */
-    -fx-pref-height: 50px; /* Cambia la altura preferida de los cuadros */
+    -fx-pref-height: 60px; /* Cambia la altura preferida de los cuadros */
     -fx-pref-width: 50px; /* Cambia el ancho preferido de los cuadros */
 }

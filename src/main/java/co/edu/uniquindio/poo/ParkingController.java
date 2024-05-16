@@ -5,8 +5,11 @@ import co.edu.uniquindio.poo.Parqueadero.ParqueaderoDao;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
+import java.util.logging.Logger;
+
 
 public class ParkingController {
+    private static final Logger LOG = Logger.getLogger(EspacioDao.class.getName());
 
     @FXML
     private GridPane gridPane;
@@ -23,6 +26,7 @@ public class ParkingController {
     }
 
     private void createButtonGrid(EspacioDao[][] espacios) {
+        gridPane.getChildren().clear(); // Limpiar los elementos existentes en el GridPane
         int rows = espacios.length;
         int cols = espacios[0].length;
 
@@ -31,6 +35,24 @@ public class ParkingController {
                 EspacioDao espacio = espacios[row][col];
                 Button button = new Button(espacio.getId());
                 button.getStyleClass().add("button-grid"); // Añade la clase CSS a los botones
+
+                // Comprueba si el espacio no está habilitado y aplica el estilo correspondiente
+
+
+                if (!espacio.getOcupado()) {
+                    button.setStyle("-fx-background-color: #00ff00;"); // Verde si está ocupado
+                } else if (espacio.getOcupado()) {
+                    button.setStyle("-fx-background-color: red;"); // Rojo si no está ocupado
+                }
+
+                if (!espacio.getEspacioHabilitado()) {
+                    button.setDisable(true);
+                    button.setStyle("-fx-background-color: #A9A9A9;"); // Gris oscuro
+                }
+
+                // Agregar un manejador de eventos de clic a cada botón
+                button.setOnAction(event -> handleParkingButtonClic(espacio));
+
                 GridPane.setRowIndex(button, row);
                 GridPane.setColumnIndex(button, col);
                 gridPane.getChildren().add(button);
@@ -38,10 +60,34 @@ public class ParkingController {
         }
     }
 
-    @FXML
-    private void nuevoIngreso() {
-        // Acción para el botón Nuevo Ingreso
+    private void handleParkingButtonClic(EspacioDao espacio) {
+        // Ejecuta el método nuevoIngreso
+        nuevoIngreso(espacio);
+
+
     }
+
+
+
+    // Método para actualizar la matriz y los botones en el GridPane
+    public void actualizarMatriz(EspacioDao[][] nuevosEspacios) {
+        createButtonGrid(nuevosEspacios);
+    }
+
+    @FXML
+    private void nuevoIngreso(EspacioDao espacio) {
+        // Acción para el botón Nuevo Ingreso
+        // Actualizar la matriz con el nuevo estado y refrescar la vista
+        // Ejemplo de actualización de la matriz:
+        espacio.setOcupado(espacio.getOcupado()); // Actualiza un espacio como ejemplo
+        if(espacio.getOcupado()){
+            LOG.info("El espacio "+ espacio.getId() + " se ha ocupado");
+        }else{
+            LOG.info("El espacio "+ espacio.getId() + " se ha liberado");
+        }
+        actualizarMatriz(ParqueaderoDao.espacios);
+    }
+
 
     @FXML
     private void informes() {
