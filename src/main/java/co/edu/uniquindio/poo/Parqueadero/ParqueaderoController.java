@@ -65,42 +65,53 @@ public class ParqueaderoController {
                 System.out.println("Ingrese el nombre del propietario: ");
                 String nombre = scanner.nextLine();
 
-                System.out.println("Ingrese la placa: ");
-                String placa = scanner.nextLine();
 
-                System.out.println("Ingrese el modelo: ");
-                String modelo = scanner.nextLine();
 
-                //Se evalua si se va a registrar un carro (opcion 1) o una moto (opcion 2)
-                if (seleccionarVehiculo == 1) {
-                    //Se registra el carro en el espacio
-                    actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearCarro(nombre, placa, modelo), fechaHoraEntrada);
-                    System.out.println("----------------Se registro--------------");
-                } else if (seleccionarVehiculo == 2) {
-                    System.out.println("Ingrese la velocidad maxima que alcanza la moto: ");
-                    Integer velocidadMaxima = scanner.nextInt();
-                    scanner.nextLine();
+                if(nombre.length()>1){
+                    System.out.println("Ingrese la placa: ");
+                    String placa = scanner.nextLine();
+                    if(placa.length() >= 4 && placa.length() <= 6){
+                        System.out.println("Ingrese el modelo: ");
+                        String modelo = scanner.nextLine();
+                        if(modelo.length() == 4){
+                            //Se evalua si se va a registrar un carro (opcion 1) o una moto (opcion 2)
+                            if (seleccionarVehiculo == 1) {
+                                //Se registra el carro en el espacio
+                                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearCarro(nombre, placa, modelo), fechaHoraEntrada);
+                                System.out.println("----------------Se registro--------------");
+                            } else if (seleccionarVehiculo == 2) {
+                                System.out.println("Ingrese la velocidad maxima que alcanza la moto: ");
+                                Integer velocidadMaxima = scanner.nextInt();
+                                scanner.nextLine();
 
-                    System.out.println("Seleccione el tipo de moto: ");
-                    System.out.println("1. Clasica");
-                    System.out.println("2. Hibrida");
-                    Integer seleccionTipoMoto = scanner.nextInt();
-                    scanner.nextLine();
+                                System.out.println("Seleccione el tipo de moto: ");
+                                System.out.println("1. Clasica");
+                                System.out.println("2. Hibrida");
+                                Integer seleccionTipoMoto = scanner.nextInt();
+                                scanner.nextLine();
 
-                    //Se inicializa el tipo de moto
-                    TipoMoto tipoMoto;
+                                //Se inicializa el tipo de moto
+                                TipoMoto tipoMoto;
 
-                    //Se verifica el tipo de moto a registrar
-                    if (seleccionTipoMoto == 1) {
-                        tipoMoto = TipoMoto.CLASICA;
-                    } else {
-                        tipoMoto = TipoMoto.HIBRIDA;
+                                //Se verifica el tipo de moto a registrar
+                                if (seleccionTipoMoto == 1) {
+                                    tipoMoto = TipoMoto.CLASICA;
+                                } else {
+                                    tipoMoto = TipoMoto.HIBRIDA;
+                                }
+                                //Se registra la moto en el espacio
+                                actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto), fechaHoraEntrada);
+                                System.out.println("----------------Se registro--------------");
+                            }
+                        }else{
+                            LOG.warning("Modelo no permitido");
+                        }
+                    }else{
+                        LOG.warning("Placa no permitida");
                     }
-                    //Se registra la moto en el espacio
-                    actualizarEspacio(selectFila, selectColumna, ParqueaderoDao.getEspacio(selectFila, selectColumna).getId(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getEspacioHabilitado(), ParqueaderoDao.getEspacio(selectFila, selectColumna).getOcupado(), crearMoto(nombre, placa, modelo, velocidadMaxima, tipoMoto), fechaHoraEntrada);
-                    System.out.println("----------------Se registro--------------");
+                }else{
+                    LOG.warning("Nombre no permitido");
                 }
-
             }
         }else{
             System.out.println("-----El espacio ingresado no existe en el parqueadero-----");
