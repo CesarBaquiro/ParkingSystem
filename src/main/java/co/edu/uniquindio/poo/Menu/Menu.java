@@ -55,7 +55,7 @@ public class Menu {
                     Integer seleccionarVehiculo = scanner.nextInt();
                     registrar(seleccionarVehiculo);
                     //El scanner esta en el metodo
-                    System.out.println("----------------Se registro--------------");
+                    
                     break;
                 case 3:
                     System.out.println("--------Ingrese que espacio va a registrar la salida:-------");
