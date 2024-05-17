@@ -12,9 +12,12 @@
       stylesheets="@styles.css">
 
     <!-- Contenedor 1 -->
-    <Label text="Parking System" styleClass="h1"/>
-    <Button text="Informes" onAction="#informes"/>
-    <Button text="Configuracion" onAction="#configuracion"/>
+    <children>
+        <Label text="Parking System" styleClass="h1"/>
+        <Button text="Informes" onAction="#informes"/>
+        <Button text="Configuracion" onAction="#configuracion"/>
+    </children>
+
 
     <!-- Contenedor 2 -->
     <!-- Formulario activable -->
@@ -29,3 +32,4 @@
         </center>
     </BorderPane>
 </VBox>
+

@@ -22,7 +22,3 @@ s
 Csrc/main/java/co/edu/uniquindio/poo/Parqueadero/ParqueaderoDao.java,1\f\1fb80d431465baac37f52d9f447c757490468f26
 k
 ;src/main/java/co/edu/uniquindio/poo/Espacio/EspacioDao.java,c\0\c028f8acb6bb7fd125272b9b07a618921e74894d
-h
-8src/main/java/co/edu/uniquindio/poo/HelloController.java,7\b\7bddd88396dc1120c023df7c003e281c554e53e8
-t
-Dsrc/main/java/co/edu/uniquindio/poo/SeleccionVehiculoController.java,c\4\c49ed81bb71f6980ed2cd23dd9d58d7bb063991f
