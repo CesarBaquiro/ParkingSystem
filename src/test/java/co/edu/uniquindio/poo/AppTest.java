@@ -71,11 +71,11 @@ public class AppTest {
         @Test
         public void testCarro (){
             LOG.info("Iniciando testCarro");
-            CarroDao moto = new CarroDao("juan", "JDH985", "2000");
+            CarroDao carro = new CarroDao("juan", "JDH985", "2000");
     
-            assertEquals("juan", moto.getNombre());
-            assertEquals("JDH985", moto.getPlaca());
-            assertEquals("2000", moto.getModelo());
+            assertEquals("juan", carro.getNombre());
+            assertEquals("JDH985", carro.getPlaca());
+            assertEquals("2000", carro.getModelo());
             LOG.info("Finalizando testCarro");
         }
 
