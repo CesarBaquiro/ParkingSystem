@@ -84,6 +84,14 @@ public class Menu {
                         Integer confirmacion = scanner.nextInt();
                         if(confirmacion == 1){
                             configuracionDefecto(FILAS, COLUMNAS);
+                            System.out.println("---Desea actualizar las tarifas?---");
+                            System.out.println("1. Si ");
+                            System.out.println("2. No ");
+                            int opcionActualizarTarifas = scanner.nextInt();
+                            scanner.nextLine();
+                            if(opcionActualizarTarifas == 1){
+                                actualizarTarifas();
+                            }
                         }
                     }else if (opcionConfiguracion == 2) {
                         actualizarHabilitado();

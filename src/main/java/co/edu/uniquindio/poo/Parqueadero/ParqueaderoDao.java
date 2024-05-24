@@ -4,6 +4,9 @@ import co.edu.uniquindio.poo.Espacio.EspacioDao;
 import co.edu.uniquindio.poo.Vehiculo.VehiculoDao;
 
 import java.time.LocalDateTime;
+import java.util.Scanner;
+
+import static co.edu.uniquindio.poo.Parqueadero.ParqueaderoController.*;
 
 /**
  * Clase ParqueaderoDao contiene sus atributos y metodos para la configuracion del parqueadero
@@ -26,6 +29,8 @@ public class ParqueaderoDao {
     //Matriz que define los espacios del parqueadero
     public static EspacioDao[][] espacios = new EspacioDao[0][0];
 
+    private static final Scanner scanner = new Scanner(System.in);
+
 
     //Asignacion de espacio 5x5 por defecto
     public static EspacioDao[][] configuracionDefecto(Integer FILAS, Integer COLUMNAS){
@@ -45,11 +50,25 @@ public class ParqueaderoDao {
                 espacios[i][j] = new EspacioDao(id,true, false);
             }
         }
-
-
-
-
     return espacios;
+    }
+
+    public static void actualizarTarifas(){
+        System.out.println("---Ingrese el costo por hora del carro---");
+        int nuevaTarifaCarro = scanner.nextInt();
+        scanner.nextLine();
+        tarifaCarro = nuevaTarifaCarro;
+
+        System.out.println("---Ingrese el costo por hora de la moto clasica---");
+        int nuevaTarifaMotoClasica = scanner.nextInt();
+        scanner.nextLine();
+        tarifaMotoClasica = nuevaTarifaMotoClasica;
+
+        System.out.println("---Ingrese el costo por hora de la moto hibrida---");
+        int nuevaTarifaMotoHibrida = scanner.nextInt();
+        scanner.nextLine();
+        tarifaMotoHibrida = nuevaTarifaMotoHibrida;
+
     }
 
     public static void verMatrizConsola(){
